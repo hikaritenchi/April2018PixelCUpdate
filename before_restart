@@ -1,0 +1,814 @@
+04-06 02:14:03.676 928-951/? W/gralloc: Unmapped producer usage 11
+    Unmapped consumer usage 1
+04-06 02:14:03.788 827-4668/? D/audio_route: Apply path: speaker
+04-06 02:14:03.790 827-4668/? I/audio_cras_dsp: pipeline created
+04-06 02:14:03.791 827-4668/? D//system/bin/audioserver: instantiate source
+    instantiate drc
+    instantiate eq2
+    instantiate sink
+    connect audio buf 0 to output_source:0 (out)
+    connect audio buf 1 to output_source:1 (out)
+    connect audio buf 0 to drc:0 (in)
+    connect audio buf 1 to drc:1 (in)
+    connect audio buf 0 to drc:2 (out)
+    connect audio buf 1 to drc:3 (out)
+    connect control (val=1) to drc:4 (in)
+    connect control (val=0) to drc:5 (in)
+    connect control (val=1) to drc:6 (in)
+    connect control (val=-36) to drc:7 (in)
+    connect control (val=18) to drc:8 (in)
+    connect control (val=20) to drc:9 (in)
+    connect control (val=0.003) to drc:10 (in)
+    connect control (val=0.2) to drc:11 (in)
+    connect control (val=3) to drc:12 (in)
+    connect control (val=450) to drc:13 (in)
+    connect control (val=1) to drc:14 (in)
+    connect control (val=-33) to drc:15 (in)
+    connect control (val=20) to drc:16 (in)
+04-06 02:14:03.792 827-4668/? D//system/bin/audioserver: connect control (val=23) to drc:17 (in)
+    connect control (val=0.003) to drc:18 (in)
+    connect control (val=0.2) to drc:19 (in)
+    connect control (val=6) to drc:20 (in)
+    connect control (val=2200) to drc:21 (in)
+    connect control (val=1) to drc:22 (in)
+    connect control (val=-18) to drc:23 (in)
+    connect control (val=20) to drc:24 (in)
+    connect control (val=6) to drc:25 (in)
+    connect control (val=0.003) to drc:26 (in)
+    connect control (val=0.2) to drc:27 (in)
+    connect control (val=-1) to drc:28 (in)
+    connect audio buf 0 to eq2:0 (in)
+    connect audio buf 1 to eq2:1 (in)
+    connect audio buf 0 to eq2:2 (out)
+    connect audio buf 1 to eq2:3 (out)
+    connect control (val=2) to eq2:4 (in)
+    connect control (val=330) to eq2:5 (in)
+    connect control (val=0) to eq2:6 (in)
+    connect control (val=0) to eq2:7 (in)
+    connect control (val=2) to eq2:8 (in)
+    connect control (val=330) to eq2:9 (in)
+    connect control (val=0) to eq2:10 (in)
+    connect control (val=0) to eq2:11 (in)
+    connect control (val=6) to eq2:12 (in)
+    connect control (val=550) to eq2:13 (in)
+    connect control (val=3) to eq2:14 (in)
+    connect control (val=-10) to eq2:15 (in)
+    connect control (val=6) to eq2:16 (in)
+04-06 02:14:03.793 827-4668/? D//system/bin/audioserver: connect control (val=550) to eq2:17 (in)
+    connect control (val=3) to eq2:18 (in)
+    connect control (val=-10) to eq2:19 (in)
+    connect control (val=6) to eq2:20 (in)
+    connect control (val=740) to eq2:21 (in)
+    connect control (val=3) to eq2:22 (in)
+    connect control (val=-8) to eq2:23 (in)
+    connect control (val=6) to eq2:24 (in)
+    connect control (val=750) to eq2:25 (in)
+    connect control (val=3) to eq2:26 (in)
+    connect control (val=-6) to eq2:27 (in)
+    connect control (val=6) to eq2:28 (in)
+    connect control (val=1000) to eq2:29 (in)
+    connect control (val=3) to eq2:30 (in)
+    connect control (val=-3) to eq2:31 (in)
+    connect control (val=6) to eq2:32 (in)
+    connect control (val=360) to eq2:33 (in)
+    connect control (val=2) to eq2:34 (in)
+    connect control (val=-4) to eq2:35 (in)
+    connect control (val=6) to eq2:36 (in)
+    connect control (val=1300) to eq2:37 (in)
+    connect control (val=3) to eq2:38 (in)
+    connect control (val=-4) to eq2:39 (in)
+    connect control (val=6) to eq2:40 (in)
+    connect control (val=1000) to eq2:41 (in)
+    connect control (val=2) to eq2:42 (in)
+    connect control (val=-4) to eq2:43 (in)
+04-06 02:14:03.794 827-4668/? D//system/bin/audioserver: connect control (val=6) to eq2:44 (in)
+    connect control (val=360) to eq2:45 (in)
+    connect control (val=1) to eq2:46 (in)
+    connect control (val=-3) to eq2:47 (in)
+    connect control (val=6) to eq2:48 (in)
+    connect control (val=1200) to eq2:49 (in)
+    connect control (val=2) to eq2:50 (in)
+    connect control (val=-5) to eq2:51 (in)
+    connect control (val=6) to eq2:52 (in)
+    connect control (val=2200) to eq2:53 (in)
+    connect control (val=7) to eq2:54 (in)
+    connect control (val=-9) to eq2:55 (in)
+    connect control (val=6) to eq2:56 (in)
+    connect control (val=2200) to eq2:57 (in)
+    connect control (val=7) to eq2:58 (in)
+    connect control (val=-9) to eq2:59 (in)
+    connect control (val=5) to eq2:60 (in)
+    connect control (val=6000) to eq2:61 (in)
+    connect control (val=0) to eq2:62 (in)
+    connect control (val=-2) to eq2:63 (in)
+    connect control (val=5) to eq2:64 (in)
+    connect control (val=6000) to eq2:65 (in)
+    connect control (val=1) to eq2:66 (in)
+    connect control (val=-2) to eq2:67 (in)
+    connect audio buf 0 to output_sink:0 (in)
+    connect audio buf 1 to output_sink:1 (in)
+04-06 02:14:03.815 1669-6161/? I/SystemUpdate: [Execution,InstallationEventIntentOperation] Handling event of type 105.
+04-06 02:14:03.818 1669-6162/? I/SystemUpdate: [Execution,InstallationIntentOperation] Received intent: Intent { act=com.google.android.gms.update.INSTALL_UPDATE cat=[targeted_intent_op_prefix:.update.execution.InstallationIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService }.
+04-06 02:14:03.826 827-4668/? W/StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+04-06 02:14:03.841 1669-6162/? I/SystemUpdate: [Control,InstallationControl] Installation progress updated to (0x310, -1.000).
+04-06 02:14:03.857 4027-4027/? I/SystemUpdate: [Phone,SystemUpdateChimeraActivity] Status change: status=0x310, isSetupWizard=false.
+04-06 02:14:03.925 1669-6162/? I/SystemUpdate: [Execution,ExecutionManager] Action non-ab-reboot executed for 0.10 seconds.
+04-06 02:14:03.932 1669-6162/? W/RecoverySystem: !!! REBOOTING TO INSTALL /data/ota_package/update.zip !!!
+04-06 02:14:03.948 6163-6163/? I//system/bin/uncrypt: [libfs_mgr]fs_mgr_read_fstab_dt(): failed to read fstab from dt
+04-06 02:14:04.937 6163-6163/? I//system/bin/uncrypt:   received command: [--update_package=@/cache/recovery/block.map
+    --locale=en-US
+    ] (59)
+04-06 02:14:04.938 6163-6163/? I//system/bin/uncrypt: [libfs_mgr]fs_mgr_read_fstab_dt(): failed to read fstab from dt
+    
+    --------- beginning of system
+04-06 02:14:04.942 928-1139/? I/RecoverySystemService: uncrypt setup bcb successfully finished.
+04-06 02:14:04.943 6163-6163/? I//system/bin/uncrypt:   received 0, exiting now
+04-06 02:14:04.945 928-943/? D/ShutdownThread: Notifying thread to start shutdown longPressBehavior=1
+04-06 02:14:04.984 928-6164/? I/ShutdownThread: Sending shutdown broadcast...
+04-06 02:14:04.985 928-928/? W/SyncManager: Writing sync state before shutdown...
+04-06 02:14:04.993 185-314/? W/gralloc: Unmapped producer usage 900
+04-06 02:14:04.993 185-315/? W/gralloc: Unmapped producer usage 900
+04-06 02:14:04.994 185-185/? W/gralloc: Unmapped producer usage 900
+04-06 02:14:04.999 928-928/? I/EntropyMixer: Writing entropy...
+04-06 02:14:05.000 185-314/? W/gralloc: Unmapped consumer usage 200
+    Unmapped producer usage 900
+04-06 02:14:05.033 1060-1060/? I/GoogleInputMethod: onReceive() : Action = android.intent.action.ACTION_SHUTDOWN
+04-06 02:14:05.044 928-1512/? I/ActivityManager: Start proc 6168:com.android.connectivity.metrics/u0a88 for broadcast com.android.connectivity.metrics/.ShutdownReceiver
+04-06 02:14:05.066 6168-6168/? I/zygote64: The ClassLoaderContext is a special shared library.
+04-06 02:14:05.098 6168-6168/? D/ConnMetrics:App: onCreate()
+04-06 02:14:05.129 6168-6182/? W/zygote64: Class com.google.android.gms.internal.zznt failed lock verification and will run slower.
+    Common causes for lock verification issues are non-optimized dex code
+    and incorrect proguard optimizations.
+04-06 02:14:05.131 4798-4798/? W/facebook.katana: type=1400 audit(0.0:42): avc: denied { read } for name="boot_id" dev="proc" ino=26837 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=0
+04-06 02:14:05.132 4798-4798/? E/fb4a.BootIdReader: Error reading boot_id from procfs
+    java.io.FileNotFoundException: /proc/sys/kernel/random/boot_id (Permission denied)
+        at java.io.FileInputStream.open0(Native Method)
+        at java.io.FileInputStream.open(FileInputStream.java:200)
+        at java.io.FileInputStream.<init>(FileInputStream.java:150)
+        at java.io.FileInputStream.<init>(FileInputStream.java:103)
+        at java.io.FileReader.<init>(FileReader.java:58)
+        at X.2M2.D(:515165)
+        at com.facebook.battery.monitor.ContinuousBatteryMonitorService.onCreate(:1936712)
+        at android.app.ActivityThread.handleCreateService(ActivityThread.java:3339)
+        at android.app.ActivityThread.-wrap4(Unknown Source:0)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1677)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:164)
+        at android.app.ActivityThread.main(ActivityThread.java:6494)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+04-06 02:14:05.143 928-943/? W/Looper: Dispatch took 144ms on android.ui, h=Handler (android.view.Choreographer$FrameHandler) {8822698} cb=android.view.Choreographer$FrameDisplayEventReceiver@8bceef1 msg=0
+04-06 02:14:05.143 928-6164/? I/ShutdownThread: Shutting down activity manager...
+04-06 02:14:05.143 4798-4810/? D/AppStateLogger: Successfully dumped app state to log file
+04-06 02:14:05.150 185-315/? W/gralloc: Unmapped consumer usage 200
+    Unmapped producer usage 900
+04-06 02:14:05.159 1669-6161/? I/SystemUpdate: [Execution,InstallationEventIntentOperation] Handling event of type 110.
+04-06 02:14:05.162 928-6164/? W/AppOps: Writing app ops before shutdown...
+04-06 02:14:05.167 185-185/? W/gralloc: Unmapped consumer usage 200
+    Unmapped producer usage 900
+04-06 02:14:05.171 928-6164/? I/UsageStatsService: User[0] Flushing usage stats to disk
+04-06 02:14:05.185 4863-4863/? W/Analytics-Norma: type=1400 audit(0.0:43): avc: denied { read } for name="boot_id" dev="proc" ino=26837 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=0
+04-06 02:14:05.192 6168-6185/? E/GooglePlayServicesUtil: The Google Play services resources were not found. Check your project configuration to ensure that the resources are included.
+04-06 02:14:05.204 4798-4863/? E/fb4a.BootIdReader: Error reading boot_id from procfs
+    java.io.FileNotFoundException: /proc/sys/kernel/random/boot_id (Permission denied)
+        at java.io.FileInputStream.open0(Native Method)
+        at java.io.FileInputStream.open(FileInputStream.java:200)
+        at java.io.FileInputStream.<init>(FileInputStream.java:150)
+        at java.io.FileInputStream.<init>(FileInputStream.java:103)
+        at java.io.FileReader.<init>(FileReader.java:58)
+        at X.2M2.D(:515165)
+        at X.3XY.B(Unknown Source:1581)
+        at X.0HJ.B(Unknown Source:31)
+        at X.0Hz.H(:46598)
+        at X.0Hz.F(:46585)
+        at X.3gf.ot(:745514)
+        at X.3aZ.E(:731716)
+        at X.3g0.C(:742959)
+        at X.0Z6.DwC(:87523)
+        at X.0Z3.B(:87444)
+        at X.0ab.handleMessage(:91004)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:164)
+        at android.os.HandlerThread.run(HandlerThread.java:65)
+04-06 02:14:05.206 928-1535/? I/WifiService: getWifiEnabledState uid=10075
+04-06 02:14:05.211 6168-6182/? D/ConnMetrics:App: IsOptedIn = true
+04-06 02:14:05.223 928-6164/? W/BatteryStats: Writing battery stats before shutdown...
+04-06 02:14:05.223 928-945/? I/WifiService: requestActivityInfo uid=1000
+    reportActivityInfo uid=1000
+    getSupportedFeatures uid=1000
+04-06 02:14:05.224 186-186/? D/WifiHAL: In DebugCommand::handleResponse
+    len = 4, expected len = 4
+    In DebugCommand::handleResponse
+    len = 4, expected len = 4
+04-06 02:14:05.237 1142-1142/? E/PhoneInterfaceManager: [PhoneIntfMgr] queryModemActivityInfo: Empty response
+04-06 02:14:05.242 928-945/? E/BatteryExternalStatsWorker: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+04-06 02:14:05.249 6168-6182/? V/ConnMetrics:WiFiJobService: Taking wifi snapshot starting at 1522995245249
+04-06 02:14:05.277 928-6164/? W/ProcessStatsService: Writing process stats before shutdown...
+04-06 02:14:05.289 928-6164/? I/ShutdownThread: Shutting down package manager...
+04-06 02:14:05.307 6168-6182/? V/ConnMetrics:WiFiJobService: Snapshot taken
+04-06 02:14:05.310 6168-6185/? E/GooglePlayServicesUtil: The Google Play services resources were not found. Check your project configuration to ensure that the resources are included.
+04-06 02:14:05.315 928-6194/? W/ShutdownThread: Disabling Bluetooth...
+04-06 02:14:05.315 928-6194/? D/BluetoothManagerService: disable(): mBluetooth = android.bluetooth.IBluetooth$Stub$Proxy@7594577 mBinding = false
+04-06 02:14:05.316 928-950/? D/BluetoothManagerService: MESSAGE_DISABLE: mBluetooth = android.bluetooth.IBluetooth$Stub$Proxy@7594577
+04-06 02:14:05.316 1142-1160/? V/PhoneInterfaceManager: [PhoneIntfMgr] 1 Phones are shutdown.
+04-06 02:14:05.316 928-6194/? I/ShutdownThread: Waiting for NFC, Bluetooth and Radio...
+04-06 02:14:05.316 6168-6182/? V/ConnMetrics:WiFiJobService: Message of size 846
+04-06 02:14:05.319 928-950/? D/BluetoothManagerService: Sending off request.
+04-06 02:14:05.320 1031-1398/? D/BluetoothAdapterService: disable() called...
+04-06 02:14:05.321 1031-1046/? D/BluetoothAdapterState: Current state: ON, message: 23
+04-06 02:14:05.321 1031-1046/? D/BluetoothAdapterProperties: Setting state to 13
+04-06 02:14:05.321 1031-1046/? I/BluetoothAdapterState: Bluetooth adapter state changed: 12-> 13
+04-06 02:14:05.321 1031-1046/? D/BluetoothAdapterService: updateAdapterState() - Broadcasting state to 1 receivers.
+04-06 02:14:05.321 1031-1046/? D/BluetoothAdapterProperties: onBluetoothDisable()
+04-06 02:14:05.321 1031-1046/? D/BluetoothAdapterService: cancelDiscovery
+04-06 02:14:05.322 928-950/? D/BluetoothManagerService: MESSAGE_BLUETOOTH_STATE_CHANGE: ON > TURNING_OFF
+    Sending BLE State Change: ON > TURNING_OFF
+04-06 02:14:05.323 1031-1046/? I/BluetoothAdapterState: Entering PendingCommandState
+04-06 02:14:05.324 1031-1053/? D/BluetoothAdapterProperties: Scan Mode:20
+04-06 02:14:05.326 1492-1492/? I/GsaVoiceInteractionSrv: O received Intent { act=android.bluetooth.adapter.action.STATE_CHANGED flg=0x4000010 (has extras) }
+04-06 02:14:05.327 1031-1031/? D/BluetoothPbapService: action: android.bluetooth.adapter.action.STATE_CHANGED
+    state: 13
+04-06 02:14:05.327 1031-1031/? I/BluetoothPbapService: cleanUpSdpRecord, mSdpHandle=1
+04-06 02:14:05.327 1031-1031/? D/BluetoothSdpJni: sdpRemoveSdpRecordNative
+    SDP Remove record success - handle: 1
+04-06 02:14:05.327 1031-1031/? D/ObexServerSockets1: shutdown(block = false)
+04-06 02:14:05.327 1031-1031/? D/BluetoothSocket: close() this: android.bluetooth.BluetoothSocket@6d117f3, channel: 3, mSocketIS: android.net.LocalSocketImpl$SocketInputStream@5456cb0, mSocketOS: android.net.LocalSocketImpl$SocketOutputStream@5cd1729mSocket: android.net.LocalSocket@8178aae impl:android.net.LocalSocketImpl@edb404f fd:java.io.FileDescriptor@d0ca3dc, mSocketState: LISTENING
+04-06 02:14:05.327 1031-1031/? D/ObexServerSockets1: shutdown called from another thread - interrupt().
+04-06 02:14:05.328 1031-1031/? D/BluetoothSocket: close() this: android.bluetooth.BluetoothSocket@76fce5, channel: 4099, mSocketIS: android.net.LocalSocketImpl$SocketInputStream@1d5a3ba, mSocketOS: android.net.LocalSocketImpl$SocketOutputStream@bb5926bmSocket: android.net.LocalSocket@8ae21c8 impl:android.net.LocalSocketImpl@91f8261 fd:java.io.FileDescriptor@42a4186, mSocketState: LISTENING
+04-06 02:14:05.328 1031-1031/? D/ObexServerSockets1: shutdown called from another thread - interrupt().
+04-06 02:14:05.328 1031-1031/? D/BtOppService: Removing SDP record mOppSdpHandle :0
+04-06 02:14:05.328 1031-1031/? D/BluetoothSdpJni: sdpRemoveSdpRecordNative
+    SDP Remove record success - handle: 0
+04-06 02:14:05.328 1031-1031/? D/BtOppService: RemoveSDPrecord returns true
+04-06 02:14:05.328 1031-1031/? D/ObexServerSockets0: shutdown(block = false)
+04-06 02:14:05.328 1031-1031/? D/BluetoothSocket: close() this: android.bluetooth.BluetoothSocket@998ea47, channel: 2, mSocketIS: android.net.LocalSocketImpl$SocketInputStream@7679274, mSocketOS: android.net.LocalSocketImpl$SocketOutputStream@f70e39dmSocket: android.net.LocalSocket@d8f012 impl:android.net.LocalSocketImpl@56fe3e3 fd:java.io.FileDescriptor@ca561e0, mSocketState: LISTENING
+04-06 02:14:05.328 1031-1031/? D/ObexServerSockets0: shutdown called from another thread - interrupt().
+04-06 02:14:05.328 1031-1031/? D/BluetoothSocket: close() this: android.bluetooth.BluetoothSocket@97d1c99, channel: 4097, mSocketIS: android.net.LocalSocketImpl$SocketInputStream@51fb5e, mSocketOS: android.net.LocalSocketImpl$SocketOutputStream@632db3fmSocket: android.net.LocalSocket@42ebc0c impl:android.net.LocalSocketImpl@279e955 fd:java.io.FileDescriptor@fbe6f6a, mSocketState: LISTENING
+04-06 02:14:05.328 1031-1031/? D/ObexServerSockets0: shutdown called from another thread - interrupt().
+04-06 02:14:05.328 1031-1031/? D/BtOppService: stopListeners   mServerSocket :null
+04-06 02:14:05.328 6168-6182/? V/ConnMetrics:BluetoothJobService: Taking Bluetooth snapshot at 1522995245328
+04-06 02:14:05.329 1031-1415/? D/ObexServerSockets1: AcceptThread ended for: ServerSocket: Type: TYPE_L2CAP Channel: 4099
+04-06 02:14:05.331 1031-1412/? D/ObexServerSockets0: AcceptThread ended for: ServerSocket: Type: TYPE_RFCOMM Channel: 2
+04-06 02:14:05.336 1031-1414/? D/ObexServerSockets1: AcceptThread ended for: ServerSocket: Type: TYPE_RFCOMM Channel: 3
+04-06 02:14:05.336 1031-1396/? E/bt_btif: SOCK_LIST: free(id = 1) - NO app_fd!
+04-06 02:14:05.336 1031-1413/? D/ObexServerSockets0: AcceptThread ended for: ServerSocket: Type: TYPE_L2CAP Channel: 4097
+04-06 02:14:05.337 1031-1396/? E/bt_btif: SOCK_LIST: free(id = 2) - NO app_fd!
+04-06 02:14:05.340 1031-1046/? V/BluetoothAdapterState: PendingCommand - transient state(s): isTurningOff
+04-06 02:14:05.340 1031-1046/? D/BluetoothAdapterState: Current state: PENDING_COMMAND, message: 21
+04-06 02:14:05.340 1031-1046/? D/BluetoothAdapterService: setProfileServiceState() - Stopping service com.android.bluetooth.a2dp.A2dpService
+04-06 02:14:05.343 1031-1031/? D/BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.343 1031-1046/? D/BluetoothAdapterService: setProfileServiceState() - Stopping service com.android.bluetooth.hid.HidService
+04-06 02:14:05.343 1031-1031/? D/A2dpService: Received stop request...Stopping profile...
+04-06 02:14:05.343 1031-1031/? D/Avrcp: doQuit
+04-06 02:14:05.344 1031-1400/? D/A2dpStateMachine: Exit Disconnected: -1
+04-06 02:14:05.344 928-1535/? D/MediaSessionService: The callback null is set by com.android.bluetooth
+04-06 02:14:05.344 1031-1046/? D/BluetoothAdapterService: setProfileServiceState() - Stopping service com.android.bluetooth.hdp.HealthService
+04-06 02:14:05.345 1031-1046/? D/BluetoothAdapterService: setProfileServiceState() - Stopping service com.android.bluetooth.pan.PanService
+04-06 02:14:05.347 1031-1046/? D/BluetoothAdapterService: setProfileServiceState() - Stopping service com.android.bluetooth.opp.BluetoothOppService
+04-06 02:14:05.349 1031-1046/? D/BluetoothAdapterService: setProfileServiceState() - Stopping service com.android.bluetooth.pbap.BluetoothPbapService
+04-06 02:14:05.349 1031-1031/? D/BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.351 928-928/? D/BluetoothA2dp: Proxy object disconnected
+04-06 02:14:05.351 1076-1076/? D/BluetoothA2dp: Proxy object disconnected
+04-06 02:14:05.352 5479-5479/? D/BluetoothA2dp: Proxy object disconnected
+04-06 02:14:05.357 1076-1203/? D/CachedBluetoothDevice:  Clearing all connection state for dev:Pixel C Keyboard
+04-06 02:14:05.359 1528-1528/? I/zygote64: Deoptimizing void com.google.android.apps.gsa.search.core.service.SearchService.auH() due to JIT inline cache
+04-06 02:14:05.359 1031-1031/? D/BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.360 1031-1031/? D/HidService: Received stop request...Stopping profile...
+    Stopping Bluetooth HidService
+04-06 02:14:05.360 1031-1031/? D/BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.360 1076-1076/? D/BluetoothInputDevice: Proxy object disconnected
+04-06 02:14:05.360 1076-1076/? D/HidProfile: Bluetooth service disconnected
+04-06 02:14:05.361 1031-1031/? D/BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.362 1031-1031/? D/HealthService: Received stop request...Stopping profile...
+04-06 02:14:05.362 1031-1031/? D/BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.363 1031-1043/? D/bt_osi_metrics: WriteString building metrics
+    WriteString serializing metrics
+04-06 02:14:05.364 1031-1031/? D/BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.364 1031-1031/? D/PanService: Received stop request...Stopping profile...
+04-06 02:14:05.364 1031-1031/? D/BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.366 1076-1076/? D/BluetoothPan: BluetoothPAN Proxy object disconnected
+04-06 02:14:05.367 1076-1076/? D/PanProfile: Bluetooth service disconnected
+04-06 02:14:05.367 1031-1031/? D/BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.368 1031-1031/? D/BluetoothOppService: Received stop request...Stopping profile...
+04-06 02:14:05.368 1031-1031/? D/BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.369 1031-1031/? D/BluetoothAdapterService: handleMessage() - Message: 1
+    handleMessage() - MESSAGE_PROFILE_SERVICE_STATE_CHANGED
+    processProfileServiceStateChanged() - serviceName=com.android.bluetooth.a2dp.A2dpService isTurningOn=false isTurningOff=true isBleTurningOn=false isBleTurningOff=false
+    onProfileServiceStateChange() - Profile still running: com.android.bluetooth.pan.PanService
+    getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.369 1031-1031/? D/BluetoothPbapService: Received stop request...Stopping profile...
+04-06 02:14:05.370 1031-1031/? V/BluetoothPbapService: stop()
+04-06 02:14:05.371 1031-1031/? D/BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.372 1076-1076/? D/BluetoothPbap: Proxy object disconnected
+04-06 02:14:05.372 1076-1076/? D/PbapServerProfile: Bluetooth service disconnected
+04-06 02:14:05.373 1031-1031/? D/BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.374 1031-1031/? D/Avrcp: cleanup
+04-06 02:14:05.374 1031-1053/? I/bt_btif_queue: queue_int_cleanup: UUID=110A
+04-06 02:14:05.374 1031-1031/? D/BluetoothAdapterService: handleMessage() - Message: 1
+    handleMessage() - MESSAGE_PROFILE_SERVICE_STATE_CHANGED
+    processProfileServiceStateChanged() - serviceName=com.android.bluetooth.hid.HidService isTurningOn=false isTurningOff=true isBleTurningOn=false isBleTurningOff=false
+    onProfileServiceStateChange() - Profile still running: com.android.bluetooth.pan.PanService
+    getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.374 1031-1031/? W/BluetoothHidServiceJni: Cleaning up Bluetooth HID Interface...
+    Cleaning up Bluetooth GID callback object
+04-06 02:14:05.374 1031-1031/? D/BluetoothAdapterService: handleMessage() - Message: 1
+    handleMessage() - MESSAGE_PROFILE_SERVICE_STATE_CHANGED
+    processProfileServiceStateChanged() - serviceName=com.android.bluetooth.hdp.HealthService isTurningOn=false isTurningOff=true isBleTurningOn=false isBleTurningOff=false
+04-06 02:14:05.375 1031-1031/? D/BluetoothAdapterService: onProfileServiceStateChange() - Profile still running: com.android.bluetooth.pan.PanService
+    getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.375 1031-1031/? W/BluetoothHealthServiceJni: Cleaning up Bluetooth Health Interface...
+04-06 02:14:05.376 1031-1031/? W/BluetoothHealthServiceJni: Cleaning up Bluetooth Health object
+04-06 02:14:05.376 1031-1031/? D/BluetoothAdapterService: handleMessage() - Message: 1
+    handleMessage() - MESSAGE_PROFILE_SERVICE_STATE_CHANGED
+    processProfileServiceStateChanged() - serviceName=com.android.bluetooth.pan.PanService isTurningOn=false isTurningOff=true isBleTurningOn=false isBleTurningOff=false
+    onProfileServiceStateChange() - Profile still running: com.android.bluetooth.pbap.BluetoothPbapService
+    getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.376 1031-1031/? W/BluetoothPanServiceJni: Cleaning up Bluetooth PAN Interface...
+    Cleaning up Bluetooth PAN callback object
+04-06 02:14:05.377 1031-1031/? D/BtOppService: stopListeners   mServerSocket :null
+04-06 02:14:05.377 1031-1031/? D/BluetoothAdapterService: handleMessage() - Message: 1
+    handleMessage() - MESSAGE_PROFILE_SERVICE_STATE_CHANGED
+    processProfileServiceStateChanged() - serviceName=com.android.bluetooth.opp.BluetoothOppService isTurningOn=false isTurningOff=true isBleTurningOn=false isBleTurningOff=false
+    onProfileServiceStateChange() - Profile still running: com.android.bluetooth.pbap.BluetoothPbapService
+    getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.378 1031-1031/? D/BtOppService: stopListeners   mServerSocket :null
+04-06 02:14:05.378 1031-1031/? D/BluetoothAdapterService: handleMessage() - Message: 1
+    handleMessage() - MESSAGE_PROFILE_SERVICE_STATE_CHANGED
+    processProfileServiceStateChanged() - serviceName=com.android.bluetooth.pbap.BluetoothPbapService isTurningOn=false isTurningOff=true isBleTurningOn=false isBleTurningOff=false
+    onProfileServiceStateChange() - All profile services stopped...
+    getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.379 1031-1046/? V/BluetoothAdapterState: PendingCommand - transient state(s): isTurningOff
+04-06 02:14:05.379 1031-1046/? D/BluetoothAdapterState: Current state: PENDING_COMMAND, message: 26
+04-06 02:14:05.379 1031-1046/? D/BluetoothAdapterProperties: Setting state to 15
+04-06 02:14:05.379 1031-1046/? I/BluetoothAdapterState: Bluetooth adapter state changed: 13-> 15
+04-06 02:14:05.379 1031-1046/? D/BluetoothAdapterService: updateAdapterState() - Broadcasting state to 1 receivers.
+04-06 02:14:05.379 928-950/? D/BluetoothManagerService: MESSAGE_BLUETOOTH_STATE_CHANGE: TURNING_OFF > BLE_ON
+    Intermediate off, back to LE only mode
+04-06 02:14:05.379 1031-1046/? I/BluetoothAdapterState: Entering BleOnState
+04-06 02:14:05.379 928-950/? D/BluetoothManagerService: Sending BLE State Change: TURNING_OFF > BLE_ON
+    Broadcasting onBluetoothStateChange(false) to 12 receivers.
+04-06 02:14:05.380 1031-1402/? W/bt_btif: btif_a2dp_ctrl_cb: A2DP-CTRL-CHANNEL EVENT UIPC_CLOSE_EVT
+04-06 02:14:05.380 1031-1401/? W/bt_osi_thread: run_thread: thread id 1401, thread name btif_a2dp_source exited
+04-06 02:14:05.380 1031-1053/? I/bt_btif_storage: btif_storage_get_adapter_property service_mask:0x20000000
+    btif_storage_get_adapter_property service_mask:0x20000000
+04-06 02:14:05.380 1031-1053/? E/bt_btif: btif_in_execute_service_request: Unknown service 27 being disabled
+04-06 02:14:05.380 1031-1383/? I/bt_stack: [INFO:gatt_api.cc(1208)] GATT_CancelConnect: gatt_if=4
+04-06 02:14:05.381 1076-1094/? D/BluetoothPbap: onBluetoothStateChange: up=false
+04-06 02:14:05.382 928-950/? D/BluetoothA2dp: onBluetoothStateChange: up=false
+04-06 02:14:05.382 1076-1409/? D/BluetoothA2dp: onBluetoothStateChange: up=false
+04-06 02:14:05.383 5479-5970/? D/BluetoothA2dp: onBluetoothStateChange: up=false
+04-06 02:14:05.383 928-950/? D/BluetoothHeadset: onBluetoothStateChange: up=false
+04-06 02:14:05.383 1076-1095/? D/BluetoothMap: onBluetoothStateChange: up=false
+04-06 02:14:05.383 1142-1812/? D/BluetoothHeadset: onBluetoothStateChange: up=false
+04-06 02:14:05.383 928-950/? D/BluetoothHeadset: onBluetoothStateChange: up=false
+    onBluetoothStateChange: up=false
+04-06 02:14:05.383 1076-1181/? D/BluetoothPan: onBluetoothStateChange on: false
+04-06 02:14:05.383 928-950/? D/BluetoothManagerService: Calling sendBrEdrDownCallback callbacks
+    isBleAppPresent() count: 1
+04-06 02:14:05.384 5479-5493/? D/BluetoothA2dp: onBluetoothStateChange: up=false
+04-06 02:14:05.385 928-1512/? W/ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@2967661
+04-06 02:14:05.387 1076-1095/? E/BluetoothMap: java.lang.IllegalArgumentException: Service not registered: android.bluetooth.BluetoothMap$2@52009f4
+        at android.app.LoadedApk.forgetServiceDispatcher(LoadedApk.java:1484)
+        at android.app.ContextImpl.unbindService(ContextImpl.java:1638)
+        at android.content.ContextWrapper.unbindService(ContextWrapper.java:703)
+        at android.bluetooth.BluetoothMap$1.onBluetoothStateChange(BluetoothMap.java:67)
+        at android.bluetooth.IBluetoothStateChangeCallback$Stub.onTransact(IBluetoothStateChangeCallback.java:55)
+        at android.os.Binder.execTransact(Binder.java:697)
+04-06 02:14:05.387 1076-1410/? D/BluetoothInputDevice: onBluetoothStateChange: up=false
+04-06 02:14:05.390 1492-1492/? I/GsaVoiceInteractionSrv: O received Intent { act=android.bluetooth.adapter.action.STATE_CHANGED flg=0x4000010 (has extras) }
+04-06 02:14:05.393 1441-1441/? I/BeaconBle: Resetting - new scanner available: true
+04-06 02:14:05.397 1441-1441/? I/BeaconBle: ZERO_POWER is disabled.
+    'L' hardware scan: scan stopped, no powered clients
+04-06 02:14:05.400 1441-3108/? D/BluetoothAdapter: disableBLE(): de-registering com.google.android.gms
+04-06 02:14:05.400 928-1148/? D/BluetoothManagerService: Unregistered for death of com.google.android.gms
+    0 registered Ble Apps
+    Calling sendBrEdrDownCallback callbacks
+    isBleAppPresent() count: 0
+04-06 02:14:05.400 1031-1046/? D/BluetoothAdapterState: Current state: BLE ON, message: 20
+04-06 02:14:05.400 1031-1046/? D/BluetoothAdapterProperties: Setting state to 16
+04-06 02:14:05.400 1031-1046/? I/BluetoothAdapterState: Bluetooth adapter state changed: 15-> 16
+04-06 02:14:05.400 1031-1046/? D/BluetoothAdapterService: updateAdapterState() - Broadcasting state to 1 receivers.
+04-06 02:14:05.401 928-950/? D/BluetoothManagerService: MESSAGE_BLUETOOTH_STATE_CHANGE: BLE_ON > BLE_TURNING_OFF
+    Sending BLE State Change: BLE_ON > BLE_TURNING_OFF
+04-06 02:14:05.401 1031-1046/? D/BluetoothAdapterProperties: onBleDisable
+04-06 02:14:05.401 1031-1046/? I/BluetoothAdapterState: Entering PendingCommandState
+04-06 02:14:05.401 1031-1047/? I/bt_stack_manager: event_shut_down_stack is bringing down the stack
+04-06 02:14:05.401 1031-1047/? I/bt_btif_core: btif_disable_bluetooth entered
+04-06 02:14:05.402 1031-1053/? D/BluetoothAdapterProperties: Scan Mode:20
+04-06 02:14:05.402 1031-1383/? E/bt_btif: bta_jv_disable
+04-06 02:14:05.402 1031-1397/? W/bt_osi_thread: run_thread: thread id 1397, thread name btif_sock exited
+04-06 02:14:05.402 1031-1047/? I/bt_btif_core: btif_disable_bluetooth finished
+04-06 02:14:05.403 1031-1383/? W/bt_btif: bta_dm_disable BTA_DISABLE_DELAY set to 200 ms
+04-06 02:14:05.403 1031-1047/? I/bt_core_module: module_shut_down Shutting down module "btif_config_module"
+04-06 02:14:05.404 1441-3108/? I/BeaconBle: 'L' hardware scan: scan stopped, no clients
+    Nearby requested to stop scan
+04-06 02:14:05.405 1441-3108/? I/BeaconBle: Scan canceled successfully.
+04-06 02:14:05.406 1441-1441/? I/BeaconBle: Resetting - new scanner available: false
+04-06 02:14:05.408 1441-1441/? I/BeaconBle: 'L' hardware scan: scan stopped, no clients
+04-06 02:14:05.412 1031-1047/? I/bt_core_module: module_shut_down Shutdown of module "btif_config_module" completed
+04-06 02:14:05.423 1441-1441/? W/ChimeraUtils: Module com.google.android.gms.nearby has empty metadata display_name_string_id
+04-06 02:14:05.429 1441-1441/? W/ChimeraUtils: Module com.google.android.gms.nearby has empty metadata display_name_string_id
+04-06 02:14:05.459 6168-6182/? V/ConnMetrics:TelecommJobService: Taking Telecom snapshot at 1522995245458
+04-06 02:14:05.461 1669-2020/? I/Authzen: [PermitStore] Getting all permits...
+04-06 02:14:05.490 6168-6182/? I/ConnMetrics:TelecommJobService: No new data to upload. Skipping upload.
+04-06 02:14:05.501 6168-6182/? V/ConnMetrics: Telephony: Taking Telephony snapshot at 1522995245501
+04-06 02:14:05.545 6168-6182/? D/ConnMetrics:IpConnectivityJobService: metrics snapshot taken, byte length: 968
+04-06 02:14:05.552 6168-6182/? V/ConnMetrics:GnssJobService: Taking Gnss snapshot at 1522995245552
+04-06 02:14:05.570 6168-6182/? I/ConnMetrics:GnssJobService: No new data to upload. Skipping upload.
+04-06 02:14:05.603 1031-1053/? I/bt_btif_core: btif_disable_bluetooth_evt entered
+04-06 02:14:05.603 1031-1053/? I/bt_core_module: module_shut_down Shutting down module "hci_module"
+04-06 02:14:05.603 1031-1053/? I/bt_hci: hci_module_shut_down
+04-06 02:14:05.603 1031-1209/? W/bt_osi_thread: run_thread: thread id 1209, thread name hci_thread exited
+04-06 02:14:05.603 1031-1053/? I/android.hardware.bluetooth@1.0-impl-dragon: BluetoothHci::close()
+04-06 02:14:05.603 1031-1053/? I/bt_userial_vendor: device fd = 68 close
+04-06 02:14:05.604 1031-1053/? I/bt_core_module: module_shut_down Shutdown of module "hci_module" completed
+    module_shut_down Shutting down module "btsnoop_module"
+    module_shut_down Shutdown of module "btsnoop_module" completed
+    module_clean_up Cleaning up module "bte_logmsg_module"
+    module_clean_up Cleanup of module "bte_logmsg_module" completed
+04-06 02:14:05.604 1031-1378/? W/bt_osi_thread: run_thread: thread id 1378, thread name bt_workqueue exited
+04-06 02:14:05.606 1031-1053/? I/bt_btif_core: btif_disable_bluetooth_evt finished
+04-06 02:14:05.606 1031-1047/? I/bt_core_module: module_shut_down Shutting down module "controller_module"
+    module_shut_down Shutdown of module "controller_module" completed
+04-06 02:14:05.606 1031-1047/? I/bt_stack_manager: event_shut_down_stack finished
+04-06 02:14:05.606 1031-1046/? V/BluetoothAdapterState: PendingCommand - transient state(s): isBleTurningOff
+04-06 02:14:05.606 1031-1046/? D/BluetoothAdapterState: Current state: PENDING_COMMAND, message: 24
+04-06 02:14:05.606 1031-1046/? D/BluetoothAdapterService: stopGattProfileService()
+    setProfileServiceState() - Stopping service com.android.bluetooth.gatt.GattService
+04-06 02:14:05.607 1031-1046/? D/BluetoothAdapterState: Stopping Gatt profile services that were post enabled
+04-06 02:14:05.607 1031-1031/? D/BtGatt.DebugUtils: handleDebugAction() action=null
+04-06 02:14:05.607 1031-1031/? D/BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+04-06 02:14:05.607 1031-1031/? D/BtGatt.GattService: Received stop request...Stopping profile...
+04-06 02:14:05.608 1031-1031/? D/BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@8efdc23
+    handleMessage() - Message: 1
+    handleMessage() - MESSAGE_PROFILE_SERVICE_STATE_CHANGED
+    processProfileServiceStateChanged() - serviceName=com.android.bluetooth.gatt.GattService isTurningOn=false isTurningOff=false isBleTurningOn=false isBleTurningOff=true
+    GattService stopped
+04-06 02:14:05.610 1031-1046/? V/BluetoothAdapterState: PendingCommand - transient state(s): isBleTurningOff
+04-06 02:14:05.610 1031-1046/? D/BluetoothAdapterState: Current state: PENDING_COMMAND, message: 25
+04-06 02:14:05.610 1031-1046/? D/BluetoothAdapterProperties: Setting state to 10
+04-06 02:14:05.610 1031-1046/? I/BluetoothAdapterState: Bluetooth adapter state changed: 16-> 10
+04-06 02:14:05.610 1031-1046/? D/BluetoothAdapterService: updateAdapterState() - Broadcasting state to 1 receivers.
+04-06 02:14:05.610 928-950/? D/BluetoothManagerService: MESSAGE_BLUETOOTH_STATE_CHANGE: BLE_TURNING_OFF > OFF
+04-06 02:14:05.610 1031-1046/? I/BluetoothAdapterState: Entering OffState
+04-06 02:14:05.610 928-950/? D/BluetoothManagerService: Bluetooth is complete send Service Down
+    Broadcasting onBluetoothServiceDown() to 7 receivers.
+04-06 02:14:05.610 1528-1794/? D/BluetoothAdapter: onBluetoothServiceDown: android.bluetooth.IBluetooth$Stub$Proxy@d2847ea
+04-06 02:14:05.610 928-950/? D/BluetoothAdapter: onBluetoothServiceDown: android.bluetooth.IBluetooth$Stub$Proxy@7594577
+04-06 02:14:05.610 1076-1094/? D/BluetoothAdapter: onBluetoothServiceDown: android.bluetooth.IBluetooth$Stub$Proxy@864f392
+04-06 02:14:05.610 1031-6198/? D/BluetoothAdapter: onBluetoothServiceDown: com.android.bluetooth.btservice.AdapterService$AdapterServiceBinder@bd57777
+04-06 02:14:05.610 928-950/? D/BluetoothManagerService: unbindAndFinish(): android.bluetooth.IBluetooth$Stub$Proxy@7594577 mBinding = false mUnbinding = false
+04-06 02:14:05.610 5479-5490/? D/BluetoothAdapter: onBluetoothServiceDown: android.bluetooth.IBluetooth$Stub$Proxy@d4b4172
+04-06 02:14:05.610 1441-2930/? D/BluetoothAdapter: onBluetoothServiceDown: android.bluetooth.IBluetooth$Stub$Proxy@249df1d
+04-06 02:14:05.611 1142-1161/? D/BluetoothAdapter: onBluetoothServiceDown: android.bluetooth.IBluetooth$Stub$Proxy@e3f2104
+04-06 02:14:05.611 1031-1031/? D/BluetoothAdapterService: onUnbind() - calling cleanup
+    cleanup()
+04-06 02:14:05.612 928-950/? D/BluetoothManagerService: Sending BLE State Change: BLE_TURNING_OFF > OFF
+04-06 02:14:05.612 1031-1031/? W/BluetoothSdpJni: Cleaning up Bluetooth SDP Interface...
+    Cleaning up Bluetooth SDP object
+04-06 02:14:05.612 1031-1031/? D/BluetoothAdapterService: cleanup() - Cleaning up adapter native
+04-06 02:14:05.612 1031-1047/? I/bt_stack_manager: event_clean_up_stack is cleaning up the stack
+04-06 02:14:05.612 1031-1047/? I/bt_btif_core: btif_cleanup_bluetooth entered
+04-06 02:14:05.612 1031-1047/? E/BluetoothServiceJni: Callback: 'callback_thread_event' is not called on the correct thread
+04-06 02:14:05.613 1031-1047/? I/bt_btif_queue: btif_queue_release
+04-06 02:14:05.613 1031-1053/? I/bt_btif_core: run_message_loop finished
+04-06 02:14:05.613 1031-1053/? W/bt_osi_thread: run_thread: thread id 1053, thread name bt_jni_workqueue exited
+04-06 02:14:05.613 1031-1047/? I/bt_core_module: module_clean_up Cleaning up module "stack_config_module"
+    module_clean_up Cleanup of module "stack_config_module" completed
+    module_clean_up Cleaning up module "interop_module"
+    module_clean_up Cleanup of module "interop_module" completed
+04-06 02:14:05.613 1031-1047/? I/bt_btif_core: btif_cleanup_bluetooth finished
+04-06 02:14:05.613 1031-1047/? I/bt_core_module: module_clean_up Cleaning up module "btif_config_module"
+04-06 02:14:05.617 1031-1047/? I/bt_core_module: module_clean_up Cleanup of module "btif_config_module" completed
+04-06 02:14:05.618 1031-1047/? I/bt_core_module: module_clean_up Cleaning up module "bt_utils_module"
+    module_clean_up Cleanup of module "bt_utils_module" completed
+    module_clean_up Cleaning up module "osi_module"
+04-06 02:14:05.618 1031-1052/? D/bt_osi_alarm: callback_dispatch Callback thread exited
+04-06 02:14:05.618 1031-1052/? W/bt_osi_thread: run_thread: thread id 1052, thread name alarm_dispatcher exited
+04-06 02:14:05.618 1031-1051/? W/bt_osi_thread: run_thread: thread id 1051, thread name alarm_default_ca exited
+04-06 02:14:05.618 1031-1047/? I/bt_core_module: module_clean_up Cleanup of module "osi_module" completed
+04-06 02:14:05.618 1031-1047/? I/bt_stack_manager: event_clean_up_stack finished
+04-06 02:14:05.618 1031-1031/? I/BluetoothServiceJni: cleanupNative: return from cleanup
+04-06 02:14:05.619 1031-1031/? D/BluetoothAdapterService: onDestroy()
+04-06 02:14:05.619 1031-1031/? I/BluetoothAdapterService: Force exit to cleanup internal state in Bluetooth stack
+04-06 02:14:05.626 1031-1031/? I/zygote64: System.exit called, status: 0
+04-06 02:14:05.626 1031-1031/? I/AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+04-06 02:14:05.638 928-939/? W/AudioService.PlaybackActivityMonitor: client died
+04-06 02:14:05.638 928-938/? I/ActivityManager: Process com.android.bluetooth (pid 1031) has died: fore SVC 
+04-06 02:14:05.638 928-944/? W/zygote64: kill(-1031, 9) failed: No such process
+04-06 02:14:05.684 928-944/? W/zygote64: kill(-1031, 9) failed: No such process
+04-06 02:14:05.684 928-944/? I/zygote64: Successfully killed process cgroup uid 1002 pid 1031 in 45ms
+04-06 02:14:05.818 928-6194/? I/ShutdownThread: Bluetooth turned off.
+04-06 02:14:05.818 928-6194/? D/ShutdownTiming: ShutdownBt took to complete: 503ms
+04-06 02:14:05.818 928-6194/? I/ShutdownThread: NFC, Radio and Bluetooth shutdown complete.
+04-06 02:14:05.822 928-6164/? I/ShutdownThread: Shutting down StorageManagerService
+04-06 02:14:05.823 928-6164/? I/StorageManagerService: Shutting down
+04-06 02:14:05.824 928-999/? D/VoldConnector: SND -> {7 volume shutdown}
+04-06 02:14:05.826 928-1000/? D/VoldConnector: RCV <- {651 emulated 5}
+04-06 02:14:06.130 928-1000/? D/VoldConnector: RCV <- {651 emulated 0}
+04-06 02:14:06.131 928-1000/? D/VoldConnector: RCV <- {651 emulated 8}
+    RCV <- {659 emulated}
+    RCV <- {200 7 Command succeeded}
+04-06 02:14:06.132 928-999/? W/ShutdownThread: Result code 0 from StorageManagerService.shutdown
+04-06 02:14:06.132 928-6164/? I/ShutdownThread: Calling uncrypt and monitoring the progress...
+04-06 02:14:06.132 928-999/? D/StorageManagerService: Volume emulated broadcasting ejecting to UserHandle{0}
+    Volume emulated broadcasting unmounted to UserHandle{0}
+04-06 02:14:06.132 6235-6235/? W/Thread-32: type=1400 audit(0.0:44): avc: denied { getattr } for path="/data/ota_package" dev="dm-2" ino=1540097 scontext=u:r:system_server:s0 tcontext=u:object_r:ota_package_file:s0 tclass=dir permissive=0
+04-06 02:14:06.134 928-939/? W/StorageManagerService: No primary storage defined yet; hacking together a stub
+04-06 02:14:06.135 928-1147/? W/StorageManagerService: No primary storage defined yet; hacking together a stub
+04-06 02:14:06.142 6236-6236/? I//system/bin/uncrypt: [libfs_mgr]fs_mgr_read_fstab_dt(): failed to read fstab from dt
+04-06 02:14:06.143 928-942/? I/ActivityManager: Start proc 6237:com.android.externalstorage/u0a8 for broadcast com.android.externalstorage/.MountReceiver
+04-06 02:14:06.143 928-999/? D/StorageManagerService: Volume emulated broadcasting bad_removal to UserHandle{0}
+04-06 02:14:06.174 6237-6237/? I/zygote64: The ClassLoaderContext is a special shared library.
+04-06 02:14:06.184 6237-6237/? D/ExternalStorage: After updating volumes, found 0 active roots
+04-06 02:14:06.197 928-939/? I/ActivityManager: Start proc 6253:com.google.android.apps.photos/u0a59 for broadcast com.google.android.apps.photos/.sdcard.envcache.ExternalStorageStateChangeBroadcastReceiver
+04-06 02:14:06.186 6237-6237/? D/ExternalStorage: After updating volumes, found 0 active roots
+04-06 02:14:06.229 6253-6253/? W/zygote64: Class com.google.android.apps.photos.app.PhotosApplication failed lock verification and will run slower.
+    Common causes for lock verification issues are non-optimized dex code
+    and incorrect proguard optimizations.
+04-06 02:14:06.249 928-1281/? W/StorageManagerService: No primary storage defined yet; hacking together a stub
+04-06 02:14:06.250 6253-6268/? W/zygote64: Class acjz failed lock verification and will run slower.
+04-06 02:14:06.250 6237-6237/? D/ExternalStorage: After updating volumes, found 0 active roots
+04-06 02:14:06.251 928-938/? I/ActivityManager: Killing 4782:com.aanddtech.labcentral.labapp/u0a83 (adj 906): empty for 2348s
+04-06 02:14:06.251 928-944/? W/zygote64: kill(-4782, 9) failed: No such process
+04-06 02:14:06.258 928-1147/? W/StorageManagerService: No primary storage defined yet; hacking together a stub
+04-06 02:14:06.258 4949-4949/? D/MediaScannerReceiver: action: android.intent.action.MEDIA_UNMOUNTED path: /storage/emulated/0
+04-06 02:14:06.260 928-1281/? W/StorageManagerService: No primary storage defined yet; hacking together a stub
+04-06 02:14:06.261 6237-6237/? D/ExternalStorage: After updating volumes, found 0 active roots
+04-06 02:14:06.262 928-1147/? W/StorageManagerService: No primary storage defined yet; hacking together a stub
+04-06 02:14:06.291 928-944/? W/zygote64: kill(-4782, 9) failed: No such process
+04-06 02:14:06.291 928-944/? I/zygote64: Successfully killed process cgroup uid 10083 pid 4782 in 39ms
+04-06 02:14:06.292 6253-6267/? W/zygote64: Class bgf failed lock verification and will run slower.
+04-06 02:14:06.372 1528-1528/? W/SearchService: Abort, client detached.
+04-06 02:14:07.138 6236-6236/? I//system/bin/uncrypt: update package is "/data/ota_package/update.zip"
+    encryptable: yes
+      encrypted: yes
+    writing block map /cache/recovery/block.map
+04-06 02:14:07.139 6236-6236/? I//system/bin/uncrypt:  block size: 4096 bytes
+      file size: 19372798 bytes, 4730 blocks
+04-06 02:14:07.139 928-6235/? I/RecoverySystemService: uncrypt read status: 0
+04-06 02:14:07.142 928-6235/? I/RecoverySystemService: uncrypt read status: 1
+04-06 02:14:07.148 928-6235/? I/RecoverySystemService: uncrypt read status: 2
+04-06 02:14:07.152 928-6235/? I/RecoverySystemService: uncrypt read status: 3
+04-06 02:14:07.155 928-6235/? I/RecoverySystemService: uncrypt read status: 4
+04-06 02:14:07.158 928-6235/? I/RecoverySystemService: uncrypt read status: 5
+04-06 02:14:07.159 928-6235/? I/RecoverySystemService: uncrypt read status: 6
+04-06 02:14:07.162 928-6235/? I/RecoverySystemService: uncrypt read status: 7
+04-06 02:14:07.164 928-6235/? I/RecoverySystemService: uncrypt read status: 8
+04-06 02:14:07.166 928-6235/? I/RecoverySystemService: uncrypt read status: 9
+04-06 02:14:07.168 928-6235/? I/RecoverySystemService: uncrypt read status: 10
+04-06 02:14:07.170 928-6235/? I/RecoverySystemService: uncrypt read status: 11
+04-06 02:14:07.173 928-6235/? I/RecoverySystemService: uncrypt read status: 12
+04-06 02:14:07.175 928-6235/? I/RecoverySystemService: uncrypt read status: 13
+04-06 02:14:07.177 928-6235/? I/RecoverySystemService: uncrypt read status: 14
+04-06 02:14:07.178 928-6235/? I/RecoverySystemService: uncrypt read status: 15
+04-06 02:14:07.179 928-6235/? I/RecoverySystemService: uncrypt read status: 16
+04-06 02:14:07.180 928-6235/? I/RecoverySystemService: uncrypt read status: 17
+04-06 02:14:07.182 928-6235/? I/RecoverySystemService: uncrypt read status: 18
+04-06 02:14:07.183 928-6235/? I/RecoverySystemService: uncrypt read status: 19
+04-06 02:14:07.184 928-6235/? I/RecoverySystemService: uncrypt read status: 20
+04-06 02:14:07.186 928-6235/? I/RecoverySystemService: uncrypt read status: 21
+04-06 02:14:07.187 928-6235/? I/RecoverySystemService: uncrypt read status: 22
+04-06 02:14:07.188 928-6235/? I/RecoverySystemService: uncrypt read status: 23
+04-06 02:14:07.190 928-6235/? I/RecoverySystemService: uncrypt read status: 24
+04-06 02:14:07.191 928-6235/? I/RecoverySystemService: uncrypt read status: 25
+04-06 02:14:07.192 928-6235/? I/RecoverySystemService: uncrypt read status: 26
+04-06 02:14:07.193 928-6235/? I/RecoverySystemService: uncrypt read status: 27
+04-06 02:14:07.195 928-6235/? I/RecoverySystemService: uncrypt read status: 28
+04-06 02:14:07.196 928-6235/? I/RecoverySystemService: uncrypt read status: 29
+04-06 02:14:07.198 928-6235/? I/RecoverySystemService: uncrypt read status: 30
+04-06 02:14:07.199 928-6235/? I/RecoverySystemService: uncrypt read status: 31
+04-06 02:14:07.200 928-6235/? I/RecoverySystemService: uncrypt read status: 32
+04-06 02:14:07.201 928-6235/? I/RecoverySystemService: uncrypt read status: 33
+    uncrypt read status: 34
+04-06 02:14:07.202 928-6235/? I/RecoverySystemService: uncrypt read status: 35
+    uncrypt read status: 36
+04-06 02:14:07.203 928-6235/? I/RecoverySystemService: uncrypt read status: 37
+04-06 02:14:07.204 928-6235/? I/RecoverySystemService: uncrypt read status: 38
+    uncrypt read status: 39
+04-06 02:14:07.205 928-6235/? I/RecoverySystemService: uncrypt read status: 40
+04-06 02:14:07.206 928-6235/? I/RecoverySystemService: uncrypt read status: 41
+    uncrypt read status: 42
+04-06 02:14:07.207 928-6235/? I/RecoverySystemService: uncrypt read status: 43
+    uncrypt read status: 44
+04-06 02:14:07.208 928-6235/? I/RecoverySystemService: uncrypt read status: 45
+04-06 02:14:07.209 928-6235/? I/RecoverySystemService: uncrypt read status: 46
+    uncrypt read status: 47
+04-06 02:14:07.210 928-6235/? I/RecoverySystemService: uncrypt read status: 48
+04-06 02:14:07.211 928-6235/? I/RecoverySystemService: uncrypt read status: 49
+    uncrypt read status: 50
+04-06 02:14:07.212 928-6235/? I/RecoverySystemService: uncrypt read status: 51
+04-06 02:14:07.213 928-6235/? I/RecoverySystemService: uncrypt read status: 52
+    uncrypt read status: 53
+04-06 02:14:07.214 928-6235/? I/RecoverySystemService: uncrypt read status: 54
+04-06 02:14:07.215 928-6235/? I/RecoverySystemService: uncrypt read status: 55
+    uncrypt read status: 56
+04-06 02:14:07.216 928-6235/? I/RecoverySystemService: uncrypt read status: 57
+04-06 02:14:07.217 928-6235/? I/RecoverySystemService: uncrypt read status: 58
+    uncrypt read status: 59
+04-06 02:14:07.218 928-6235/? I/RecoverySystemService: uncrypt read status: 60
+    uncrypt read status: 61
+04-06 02:14:07.219 928-6235/? I/RecoverySystemService: uncrypt read status: 62
+04-06 02:14:07.220 928-6235/? I/RecoverySystemService: uncrypt read status: 63
+    uncrypt read status: 64
+04-06 02:14:07.221 928-6235/? I/RecoverySystemService: uncrypt read status: 65
+04-06 02:14:07.222 928-6235/? I/RecoverySystemService: uncrypt read status: 66
+    uncrypt read status: 67
+04-06 02:14:07.223 928-6235/? I/RecoverySystemService: uncrypt read status: 68
+04-06 02:14:07.224 928-6235/? I/RecoverySystemService: uncrypt read status: 69
+    uncrypt read status: 70
+04-06 02:14:07.225 928-6235/? I/RecoverySystemService: uncrypt read status: 71
+04-06 02:14:07.226 928-6235/? I/RecoverySystemService: uncrypt read status: 72
+    uncrypt read status: 73
+04-06 02:14:07.227 928-6235/? I/RecoverySystemService: uncrypt read status: 74
+    uncrypt read status: 75
+04-06 02:14:07.228 928-6235/? I/RecoverySystemService: uncrypt read status: 76
+04-06 02:14:07.229 928-6235/? I/RecoverySystemService: uncrypt read status: 77
+    uncrypt read status: 78
+04-06 02:14:07.230 928-6235/? I/RecoverySystemService: uncrypt read status: 79
+04-06 02:14:07.231 928-6235/? I/RecoverySystemService: uncrypt read status: 80
+    uncrypt read status: 81
+04-06 02:14:07.232 928-6235/? I/RecoverySystemService: uncrypt read status: 82
+04-06 02:14:07.233 928-6235/? I/RecoverySystemService: uncrypt read status: 83
+    uncrypt read status: 84
+04-06 02:14:07.234 928-6235/? I/RecoverySystemService: uncrypt read status: 85
+    uncrypt read status: 86
+04-06 02:14:07.235 928-6235/? I/RecoverySystemService: uncrypt read status: 87
+04-06 02:14:07.236 928-6235/? I/RecoverySystemService: uncrypt read status: 88
+    uncrypt read status: 89
+04-06 02:14:07.237 928-6235/? I/RecoverySystemService: uncrypt read status: 90
+04-06 02:14:07.238 928-6235/? I/RecoverySystemService: uncrypt read status: 91
+    uncrypt read status: 92
+04-06 02:14:07.239 928-6235/? I/RecoverySystemService: uncrypt read status: 93
+    uncrypt read status: 94
+04-06 02:14:07.240 928-6235/? I/RecoverySystemService: uncrypt read status: 95
+04-06 02:14:07.241 928-6235/? I/RecoverySystemService: uncrypt read status: 96
+    uncrypt read status: 97
+04-06 02:14:07.242 928-6235/? I/RecoverySystemService: uncrypt read status: 98
+    uncrypt read status: 99
+04-06 02:14:07.392 928-6235/? I/RecoverySystemService: uncrypt read status: 100
+    uncrypt successfully finished.
+04-06 02:14:07.392 6236-6236/? I//system/bin/uncrypt:   received 0, exiting now
+04-06 02:14:07.393 928-6164/? I/ShutdownThread: Rebooting, reason: recovery-update
+04-06 02:14:07.395 1074-1074/? E/wpa_supplicant: nl80211: Failed to open /proc/sys/net/ipv4/conf/p2p-dev-wlan0/drop_unicast_in_l2_multicast: No such file or directory
+04-06 02:14:07.396 1074-1074/? E/wpa_supplicant: nl80211: Failed to set IPv4 unicast in multicast filter
+04-06 02:14:07.397 1074-1074/? E/wpa_supplicant: nl80211: Failed to open /proc/sys/net/ipv4/conf/p2p-dev-wlan0/drop_unicast_in_l2_multicast: No such file or directory
+    nl80211: Failed to set IPv4 unicast in multicast filter
+04-06 02:14:07.397 1074-1074/? I/wpa_supplicant: nl80211: deinit ifname=p2p-dev-wlan0 disabled_11b_rates=0
+04-06 02:14:07.410 158-158/? E/hw-IPCThreadState: attemptIncStrongHandle(8): Not supported
+04-06 02:14:07.410 158-158/? I/chatty: uid=1000(system) hwservicemanage identical 2 lines
+04-06 02:14:07.410 158-158/? E/hw-IPCThreadState: attemptIncStrongHandle(8): Not supported
+04-06 02:14:07.410 157-157/? I/ServiceManager: service 'media.camera' died
+    service 'media.audio_flinger' died
+    service 'media.audio_policy' died
+    service 'media.sound_trigger_hw' died
+04-06 02:14:07.418 157-157/? I/ServiceManager: service 'batteryproperties' died
+04-06 02:14:07.431 158-158/? E/hw-IPCThreadState: attemptIncStrongHandle(1): Not supported
+04-06 02:14:07.431 158-158/? I/chatty: uid=1000(system) hwservicemanage identical 4 lines
+04-06 02:14:07.431 158-158/? E/hw-IPCThreadState: attemptIncStrongHandle(1): Not supported
+04-06 02:14:07.431 835-835/? W/DrmManagerClientImpl(Native): DrmManager server died!
+04-06 02:14:07.431 157-157/? I/ServiceManager: service 'drm.drmManager' died
+04-06 02:14:07.446 1074-1074/? E/wpa_supplicant: Failed to unregister STA interface with HIDL control: p2p-dev-wlan0
+04-06 02:14:07.446 1074-1074/? I/wpa_supplicant: p2p-dev-wlan0: CTRL-EVENT-TERMINATING 
+04-06 02:14:07.448 1074-1074/? I/wpa_supplicant: wlan0: CTRL-EVENT-DISCONNECTED bssid=70:3a:cb:6d:c3:8e reason=3 locally_generated=1
+04-06 02:14:07.449 1074-1074/? E/wpa_supplicant: nl80211: Failed to open /proc/sys/net/ipv4/conf/wlan0/drop_unicast_in_l2_multicast: No such file or directory
+    nl80211: Failed to set IPv4 unicast in multicast filter
+    nl80211: Failed to open /proc/sys/net/ipv4/conf/wlan0/drop_unicast_in_l2_multicast: No such file or directory
+    nl80211: Failed to set IPv4 unicast in multicast filter
+    nl80211: Failed to open /proc/sys/net/ipv4/conf/wlan0/drop_unicast_in_l2_multicast: No such file or directory
+    nl80211: Failed to set IPv4 unicast in multicast filter
+04-06 02:14:07.449 1074-1074/? I/wpa_supplicant: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+04-06 02:14:07.450 157-157/? I/ServiceManager: service 'isub' died
+    service 'phone' died
+    service 'carrier_config' died
+    service 'simphonebook' died
+04-06 02:14:07.451 157-157/? I/ServiceManager: service 'iphonesubinfo' died
+    service 'isms' died
+04-06 02:14:07.457 157-157/? I/ServiceManager: service 'installd' died
+04-06 02:14:07.463 157-157/? I/ServiceManager: service 'storaged' died
+04-06 02:14:07.464 157-157/? I/ServiceManager: service 'media.player' died
+04-06 02:14:07.465 157-157/? I/ServiceManager: service 'media.resource_manager' died
+04-06 02:14:07.465 839-839/? I/wificond: wificond is about to exit
+04-06 02:14:07.466 839-839/? I/wificond: Unsubscribe scan result for interface with index: 4
+04-06 02:14:07.466 157-157/? I/ServiceManager: service 'media.metrics' died
+    service 'media.drm' died
+    service 'thermalservice' died
+    service 'media.extractor' died
+    service 'android.service.gatekeeper.IGateKeeperService' died
+04-06 02:14:07.470 157-157/? I/ServiceManager: service 'android.security.keystore' died
+    service 'netd' died
+04-06 02:14:07.472 157-157/? I/ServiceManager: service 'media.codec' died
+04-06 02:14:07.477 1074-1074/? I/wpa_supplicant: wlan0: CTRL-EVENT-TERMINATING 
+04-06 02:14:07.478 1074-1074/? W/hw-IPCThreadState: Calling IPCThreadState::self() during shutdown is dangerous, expect a crash.
+04-06 02:14:07.479 1074-1074/? W/hw-IPCThreadState: Calling IPCThreadState::self() during shutdown is dangerous, expect a crash.
+04-06 02:14:07.480 158-158/? E/hw-IPCThreadState: attemptIncStrongHandle(16): Not supported
+04-06 02:14:07.480 158-158/? I/chatty: uid=1000(system) hwservicemanage identical 3 lines
+04-06 02:14:07.480 158-158/? E/hw-IPCThreadState: attemptIncStrongHandle(16): Not supported
+04-06 02:14:07.499 157-157/? I/ServiceManager: service 'telecom' died
+04-06 02:14:07.499 189-189/? D/SurfaceFlinger: Set power mode=2, type=0 flinger=0x783485e000
+04-06 02:14:07.499 157-157/? I/ServiceManager: service 'wifip2p' died
+04-06 02:14:07.500 157-157/? I/ServiceManager: service 'ethernet' died
+    service 'connectivity' died
+    service 'servicediscovery' died
+    service 'updatelock' died
+    service 'notification' died
+    service 'devicestoragemonitor' died
+    service 'location' died
+    service 'country_detector' died
+    service 'search' died
+    service 'wallpaper' died
+    service 'bluetooth_manager' died
+    service 'connmetrics' died
+    service 'netd_listener' died
+    service 'overlay' died
+    service 'audio' died
+    service 'DockObserver' died
+    service 'midi' died
+    service 'usb' died
+    service 'serial' died
+    service 'hardware_properties' died
+    service 'jobscheduler' died
+    service 'soundtrigger' died
+    service 'trust' died
+    service 'backup' died
+    service 'appwidget' died
+    service 'voiceinteraction' died
+    service 'diskstats' died
+    service 'timezone' died
+    service 'network_time_update_service' died
+    service 'commontime_management' died
+    service 'dreams' died
+    service 'graphicsstats' died
+    service 'print' died
+    service 'companiondevice' died
+    service 'restrictions' died
+    service 'media_session' died
+    service 'media_resource_monitor' died
+    service 'account' died
+    service 'content' died
+    service 'settings' died
+    service 'vibrator' died
+    service 'consumer_ir' died
+    service 'alarm' died
+    service 'gfxinfo' died
+    service 'dbinfo' died
+    service 'cpuinfo' died
+    service 'permission' died
+    service 'processinfo' died
+    service 'procstats' died
+    service 'activity' died
+    service 'user' died
+04-06 02:14:07.501 157-157/? I/ServiceManager: service 'otadexopt' died
+    service 'package_native' died
+    service 'package' died
+    service 'dropbox' died
+    service 'sensorservice' died
+    service 'battery' died
+    service 'usagestats' died
+    service 'webviewupdate' died
+    service 'sec_key_att_app_id_provider' died
+    service 'scheduling_policy' died
+    service 'telephony.registry' died
+    service 'window' died
+    service 'input' died
+    service 'vrmanager' died
+    service 'pinner' died
+    service 'input_method' died
+    service 'accessibility' died
+    service 'mount' died
+    service 'uimode' died
+    service 'storagestats' died
+    service 'device_policy' died
+    service 'lock_settings' died
+    service 'oem_lock' died
+    service 'persistent_data_block' died
+    service 'deviceidle' died
+    service 'statusbar' died
+    service 'clipboard' died
+    service 'network_management' died
+    service 'textservices' died
+    service 'network_score' died
+    service 'netstats' died
+    service 'netpolicy' died
+    service 'wifi' died
+    service 'wifiscanner' died
+    service 'rttmanager' died
+04-06 02:14:07.502 157-157/? I/ServiceManager: service 'batterystats' died
+    service 'appops' died
+    service 'power' died
+    service 'recovery' died
+    service 'display' died
+    service 'media_router' died
+    service 'shortcut' died
+    service 'launcherapps' died
+    service 'media_projection' died
+    service 'media.camera.proxy' died
+    service 'autofill' died
+    service 'imms' died
+    service 'meminfo' died
+    service 'contexthub' died
+    service 'device_identifiers' died
+04-06 02:14:07.506 158-158/? E/hw-IPCThreadState: attemptIncStrongHandle(17): Not supported
+    attemptIncStrongHandle(15): Not supported
+04-06 02:14:07.507 6027-6027/? I/adbd: Framework disconnect
