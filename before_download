@@ -1,0 +1,186 @@
+04-06 02:13:43.106 928-951/? W/gralloc: Unmapped producer usage 11
+    Unmapped consumer usage 1
+04-06 02:13:43.227 827-4668/? D/audio_route: Apply path: speaker
+04-06 02:13:43.230 827-4668/? I/audio_cras_dsp: pipeline created
+04-06 02:13:43.230 827-4668/? D//system/bin/audioserver: instantiate source
+    instantiate drc
+    instantiate eq2
+    instantiate sink
+    connect audio buf 0 to output_source:0 (out)
+    connect audio buf 1 to output_source:1 (out)
+    connect audio buf 0 to drc:0 (in)
+    connect audio buf 1 to drc:1 (in)
+    connect audio buf 0 to drc:2 (out)
+    connect audio buf 1 to drc:3 (out)
+    connect control (val=1) to drc:4 (in)
+    connect control (val=0) to drc:5 (in)
+    connect control (val=1) to drc:6 (in)
+    connect control (val=-36) to drc:7 (in)
+04-06 02:13:43.231 827-4668/? D//system/bin/audioserver: connect control (val=18) to drc:8 (in)
+    connect control (val=20) to drc:9 (in)
+    connect control (val=0.003) to drc:10 (in)
+    connect control (val=0.2) to drc:11 (in)
+    connect control (val=3) to drc:12 (in)
+    connect control (val=450) to drc:13 (in)
+    connect control (val=1) to drc:14 (in)
+    connect control (val=-33) to drc:15 (in)
+    connect control (val=20) to drc:16 (in)
+    connect control (val=23) to drc:17 (in)
+    connect control (val=0.003) to drc:18 (in)
+    connect control (val=0.2) to drc:19 (in)
+    connect control (val=6) to drc:20 (in)
+    connect control (val=2200) to drc:21 (in)
+    connect control (val=1) to drc:22 (in)
+    connect control (val=-18) to drc:23 (in)
+    connect control (val=20) to drc:24 (in)
+    connect control (val=6) to drc:25 (in)
+    connect control (val=0.003) to drc:26 (in)
+    connect control (val=0.2) to drc:27 (in)
+    connect control (val=-1) to drc:28 (in)
+    connect audio buf 0 to eq2:0 (in)
+    connect audio buf 1 to eq2:1 (in)
+    connect audio buf 0 to eq2:2 (out)
+    connect audio buf 1 to eq2:3 (out)
+    connect control (val=2) to eq2:4 (in)
+    connect control (val=330) to eq2:5 (in)
+    connect control (val=0) to eq2:6 (in)
+    connect control (val=0) to eq2:7 (in)
+04-06 02:13:43.232 827-4668/? D//system/bin/audioserver: connect control (val=2) to eq2:8 (in)
+    connect control (val=330) to eq2:9 (in)
+    connect control (val=0) to eq2:10 (in)
+    connect control (val=0) to eq2:11 (in)
+    connect control (val=6) to eq2:12 (in)
+    connect control (val=550) to eq2:13 (in)
+    connect control (val=3) to eq2:14 (in)
+    connect control (val=-10) to eq2:15 (in)
+    connect control (val=6) to eq2:16 (in)
+    connect control (val=550) to eq2:17 (in)
+    connect control (val=3) to eq2:18 (in)
+    connect control (val=-10) to eq2:19 (in)
+    connect control (val=6) to eq2:20 (in)
+    connect control (val=740) to eq2:21 (in)
+    connect control (val=3) to eq2:22 (in)
+    connect control (val=-8) to eq2:23 (in)
+    connect control (val=6) to eq2:24 (in)
+    connect control (val=750) to eq2:25 (in)
+    connect control (val=3) to eq2:26 (in)
+    connect control (val=-6) to eq2:27 (in)
+    connect control (val=6) to eq2:28 (in)
+    connect control (val=1000) to eq2:29 (in)
+    connect control (val=3) to eq2:30 (in)
+    connect control (val=-3) to eq2:31 (in)
+    connect control (val=6) to eq2:32 (in)
+    connect control (val=360) to eq2:33 (in)
+    connect control (val=2) to eq2:34 (in)
+    connect control (val=-4) to eq2:35 (in)
+    connect control (val=6) to eq2:36 (in)
+04-06 02:13:43.233 827-4668/? D//system/bin/audioserver: connect control (val=1300) to eq2:37 (in)
+    connect control (val=3) to eq2:38 (in)
+    connect control (val=-4) to eq2:39 (in)
+    connect control (val=6) to eq2:40 (in)
+    connect control (val=1000) to eq2:41 (in)
+    connect control (val=2) to eq2:42 (in)
+    connect control (val=-4) to eq2:43 (in)
+    connect control (val=6) to eq2:44 (in)
+    connect control (val=360) to eq2:45 (in)
+    connect control (val=1) to eq2:46 (in)
+    connect control (val=-3) to eq2:47 (in)
+    connect control (val=6) to eq2:48 (in)
+    connect control (val=1200) to eq2:49 (in)
+    connect control (val=2) to eq2:50 (in)
+    connect control (val=-5) to eq2:51 (in)
+    connect control (val=6) to eq2:52 (in)
+    connect control (val=2200) to eq2:53 (in)
+    connect control (val=7) to eq2:54 (in)
+    connect control (val=-9) to eq2:55 (in)
+    connect control (val=6) to eq2:56 (in)
+    connect control (val=2200) to eq2:57 (in)
+    connect control (val=7) to eq2:58 (in)
+    connect control (val=-9) to eq2:59 (in)
+    connect control (val=5) to eq2:60 (in)
+    connect control (val=6000) to eq2:61 (in)
+    connect control (val=0) to eq2:62 (in)
+    connect control (val=-2) to eq2:63 (in)
+    connect control (val=5) to eq2:64 (in)
+    connect control (val=6000) to eq2:65 (in)
+04-06 02:13:43.234 827-4668/? D//system/bin/audioserver: connect control (val=1) to eq2:66 (in)
+    connect control (val=-2) to eq2:67 (in)
+    connect audio buf 0 to output_sink:0 (in)
+    connect audio buf 1 to output_sink:1 (in)
+04-06 02:13:43.242 928-941/? E/memtrack: Couldn't load memtrack module
+04-06 02:13:43.242 928-941/? W/android.os.Debug: failed to get memory consumption info: -1
+04-06 02:13:43.249 1669-6142/? I/SystemUpdate: [Execution,InstallationEventIntentOperation] Handling event of type 103.
+04-06 02:13:43.261 1669-6143/? I/SystemUpdate: [Execution,InstallationIntentOperation] Received intent: Intent { act=com.google.android.gms.update.INSTALL_UPDATE cat=[targeted_intent_op_prefix:.update.execution.InstallationIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService }.
+04-06 02:13:43.263 827-4668/? W/StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+04-06 02:13:43.283 928-941/? E/memtrack: Couldn't load memtrack module
+04-06 02:13:43.283 928-941/? W/android.os.Debug: failed to get memory consumption info: -1
+04-06 02:13:43.294 1669-1698/? W/zygote64: Couldn't lock the profile file /data/misc/profiles/cur/0/com.google.android.gms/primary.prof: Failed to lock file '/data/misc/profiles/cur/0/com.google.android.gms/primary.prof': Try again
+    Could not forcefully load profile /data/misc/profiles/cur/0/com.google.android.gms/primary.prof
+04-06 02:13:43.306 1669-6143/? I/SystemUpdate: [Control,InstallationControl] Installation progress updated to (0x002, -1.000).
+04-06 02:13:43.331 4027-4027/? I/SystemUpdate: [Phone,SystemUpdateChimeraActivity] Status change: status=0x002, isSetupWizard=false.
+04-06 02:13:43.379 1669-6143/? I/SystemUpdate: [Network,NetworkRequester] Requesting network with capabilities [11, 12]...
+    
+    --------- beginning of system
+04-06 02:13:43.380 928-1148/? D/ConnectivityService: requestNetwork for uid/pid:10010/1669 NetworkRequest [ REQUEST id=18, [ Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED] ]
+04-06 02:13:43.380 928-1007/? D/WIFI: got request NetworkRequest [ REQUEST id=18, [ Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED] ] with score 60
+04-06 02:13:43.380 928-1007/? D/WIFI_UT: got request NetworkRequest [ REQUEST id=18, [ Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED] ] with score 60
+04-06 02:13:43.380 928-1027/? D/Ethernet: got request NetworkRequest [ REQUEST id=18, [ Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED] ] with score 60
+04-06 02:13:43.380 1142-1142/? D/PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ REQUEST id=18, [ Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED] ] with score 60
+04-06 02:13:43.381 1669-1998/? I/SystemUpdate: [Network,NetworkRequester] Network acquired.
+04-06 02:13:43.386 1669-2105/? I/SystemUpdate: [Control,BatteryControl] Received intent: Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }.
+04-06 02:13:43.391 1669-2020/? I/SystemUpdate: [Control,NetworkControl] Received intent: Intent { act=android.net.wifi.supplicant.STATE_CHANGE flg=0x24000010 (has extras) }.
+04-06 02:13:43.397 1076-1109/? W/zygote64: Checksum mismatch for dex SystemUIGoogle.apk
+    Checksum mismatch for dex SystemUIGoogle.apk
+04-06 02:13:43.403 1669-6142/? I/SystemUpdate: [Execution,InstallationEventIntentOperation] Handling event of type 4.
+04-06 02:13:43.416 1669-6142/? I/SystemUpdate: [Execution,InstallationEventIntentOperation] Handling event of type 3.
+04-06 02:13:43.442 928-1512/? I/WifiService: acquireWifiLock uid=10010 lockMode=1
+04-06 02:13:44.652 1669-6143/? W/Conscrypt: Could not set socket write timeout: java.lang.reflect.InvocationTargetException
+04-06 02:13:44.653 1669-6143/? W/Conscrypt:     at java.lang.reflect.Method.invoke(Native Method)
+        at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@12521051@12.5.21 (090406-189987672):13)
+    Caused by: android.system.ErrnoException: setsockopt failed: EBADF (Bad file descriptor)
+04-06 02:13:44.654 1669-6143/? W/Conscrypt:     at libcore.io.Linux.setsockoptTimeval(Native Method)
+        at libcore.io.ForwardingOs.setsockoptTimeval(ForwardingOs.java:175)
+04-06 02:13:44.738 1669-6143/? W/Conscrypt: Could not set socket write timeout: java.lang.reflect.InvocationTargetException
+04-06 02:13:44.739 1669-6143/? W/Conscrypt:     at java.lang.reflect.Method.invoke(Native Method)
+        at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@12521051@12.5.21 (090406-189987672):13)
+    Caused by: android.system.ErrnoException: setsockopt failed: EBADF (Bad file descriptor)
+        at libcore.io.Linux.setsockoptTimeval(Native Method)
+        at libcore.io.ForwardingOs.setsockoptTimeval(ForwardingOs.java:175)
+04-06 02:13:44.845 1669-6143/? W/Conscrypt: Could not set socket write timeout: java.lang.reflect.InvocationTargetException
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@12521051@12.5.21 (090406-189987672):13)
+    Caused by: android.system.ErrnoException: setsockopt failed: EBADF (Bad file descriptor)
+        at libcore.io.Linux.setsockoptTimeval(Native Method)
+        at libcore.io.ForwardingOs.setsockoptTimeval(ForwardingOs.java:175)
+04-06 02:13:44.954 1669-6143/? W/Conscrypt: Could not set socket write timeout: java.lang.reflect.InvocationTargetException
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@12521051@12.5.21 (090406-189987672):13)
+    Caused by: android.system.ErrnoException: setsockopt failed: EBADF (Bad file descriptor)
+        at libcore.io.Linux.setsockoptTimeval(Native Method)
+        at libcore.io.ForwardingOs.setsockoptTimeval(ForwardingOs.java:175)
+04-06 02:13:46.078 1669-6143/? W/Conscrypt: Could not set socket write timeout: java.lang.reflect.InvocationTargetException
+04-06 02:13:46.079 1669-6143/? W/Conscrypt:     at java.lang.reflect.Method.invoke(Native Method)
+        at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@12521051@12.5.21 (090406-189987672):13)
+    Caused by: android.system.ErrnoException: setsockopt failed: EBADF (Bad file descriptor)
+04-06 02:13:46.080 1669-6143/? W/Conscrypt:     at libcore.io.Linux.setsockoptTimeval(Native Method)
+        at libcore.io.ForwardingOs.setsockoptTimeval(ForwardingOs.java:175)
+04-06 02:13:46.160 1669-6143/? W/Conscrypt: Could not set socket write timeout: java.lang.reflect.InvocationTargetException
+04-06 02:13:46.161 1669-6143/? W/Conscrypt:     at java.lang.reflect.Method.invoke(Native Method)
+        at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@12521051@12.5.21 (090406-189987672):13)
+    Caused by: android.system.ErrnoException: setsockopt failed: EBADF (Bad file descriptor)
+        at libcore.io.Linux.setsockoptTimeval(Native Method)
+        at libcore.io.ForwardingOs.setsockoptTimeval(ForwardingOs.java:175)
+04-06 02:13:46.193 1669-6143/? I/SystemUpdate: [Control,InstallationControl] Installation progress updated to (0x002, 0.000).
+04-06 02:13:46.210 4027-4027/? I/SystemUpdate: [Phone,SystemUpdateChimeraActivity] Progress update: progress=0.000000.
+04-06 02:13:46.247 1669-6143/? I/SystemUpdate: [Execution,PackageFiles] Allocating file /data/ota_package/update.zip with size 19372798.
+04-06 02:13:47.119 928-1281/? I/WifiService: releaseWifiLock uid=10010
+04-06 02:13:47.121 928-1012/? D/ConnectivityService: releasing NetworkRequest [ REQUEST id=18, [ Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED] ] (release request)
+04-06 02:13:47.121 1669-6143/? I/SystemUpdate: [Execution,ExecutionManager] Action non-streaming-download executed for 3.86 seconds.
+04-06 02:13:47.132 1669-6143/? I/SystemUpdate: [Control,InstallationControl] Installation progress updated to (0x003, -1.000).
+04-06 02:13:47.150 4027-4027/? I/SystemUpdate: [Phone,SystemUpdateChimeraActivity] Status change: status=0x003, isSetupWizard=false.
+04-06 02:13:47.278 1669-6143/? I/SystemUpdate: [Execution,ExecutionManager] Action non-streaming-process-package executed for 0.15 seconds.
+04-06 02:13:47.300 1669-6143/? I/SystemUpdate: [Control,InstallationControl] Installation progress updated to (0x110, -1.000).
+04-06 02:13:47.314 4027-4027/? I/SystemUpdate: [Phone,SystemUpdateChimeraActivity] Status change: status=0x110, isSetupWizard=false.
+04-06 02:13:47.374 1669-6143/? I/SystemUpdate: [Execution,ExecutionManager] Action non-ab-reboot executed for 0.09 seconds.
+04-06 02:13:47.392 1669-6143/? I/SystemUpdate: [Execution,ExecutionManager] Action fixed-delay-execution executed for 0.01 seconds.
+04-06 02:13:47.403 1076-1076/? I/zygote64: Deoptimizing void com.android.systemui.statusbar.notification.NotificationInflater$6.onViewApplied(android.view.View) due to JIT inline cache
