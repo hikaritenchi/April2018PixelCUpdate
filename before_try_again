@@ -1,0 +1,250 @@
+04-06 02:13:04.586 928-951/? W/gralloc: Unmapped producer usage 11
+    Unmapped consumer usage 1
+04-06 02:13:04.700 827-4668/? D/audio_route: Apply path: speaker
+04-06 02:13:04.702 827-4668/? I/audio_cras_dsp: pipeline created
+04-06 02:13:04.703 827-4668/? D//system/bin/audioserver: instantiate source
+    instantiate drc
+    instantiate eq2
+    instantiate sink
+    connect audio buf 0 to output_source:0 (out)
+    connect audio buf 1 to output_source:1 (out)
+    connect audio buf 0 to drc:0 (in)
+    connect audio buf 1 to drc:1 (in)
+    connect audio buf 0 to drc:2 (out)
+    connect audio buf 1 to drc:3 (out)
+    connect control (val=1) to drc:4 (in)
+    connect control (val=0) to drc:5 (in)
+    connect control (val=1) to drc:6 (in)
+    connect control (val=-36) to drc:7 (in)
+    connect control (val=18) to drc:8 (in)
+    connect control (val=20) to drc:9 (in)
+    connect control (val=0.003) to drc:10 (in)
+    connect control (val=0.2) to drc:11 (in)
+    connect control (val=3) to drc:12 (in)
+    connect control (val=450) to drc:13 (in)
+    connect control (val=1) to drc:14 (in)
+    connect control (val=-33) to drc:15 (in)
+    connect control (val=20) to drc:16 (in)
+    connect control (val=23) to drc:17 (in)
+04-06 02:13:04.704 827-4668/? D//system/bin/audioserver: connect control (val=0.003) to drc:18 (in)
+    connect control (val=0.2) to drc:19 (in)
+    connect control (val=6) to drc:20 (in)
+    connect control (val=2200) to drc:21 (in)
+    connect control (val=1) to drc:22 (in)
+    connect control (val=-18) to drc:23 (in)
+    connect control (val=20) to drc:24 (in)
+    connect control (val=6) to drc:25 (in)
+    connect control (val=0.003) to drc:26 (in)
+    connect control (val=0.2) to drc:27 (in)
+    connect control (val=-1) to drc:28 (in)
+    connect audio buf 0 to eq2:0 (in)
+    connect audio buf 1 to eq2:1 (in)
+    connect audio buf 0 to eq2:2 (out)
+    connect audio buf 1 to eq2:3 (out)
+    connect control (val=2) to eq2:4 (in)
+    connect control (val=330) to eq2:5 (in)
+    connect control (val=0) to eq2:6 (in)
+    connect control (val=0) to eq2:7 (in)
+    connect control (val=2) to eq2:8 (in)
+    connect control (val=330) to eq2:9 (in)
+    connect control (val=0) to eq2:10 (in)
+    connect control (val=0) to eq2:11 (in)
+    connect control (val=6) to eq2:12 (in)
+    connect control (val=550) to eq2:13 (in)
+    connect control (val=3) to eq2:14 (in)
+    connect control (val=-10) to eq2:15 (in)
+04-06 02:13:04.705 827-4668/? D//system/bin/audioserver: connect control (val=6) to eq2:16 (in)
+    connect control (val=550) to eq2:17 (in)
+    connect control (val=3) to eq2:18 (in)
+    connect control (val=-10) to eq2:19 (in)
+    connect control (val=6) to eq2:20 (in)
+    connect control (val=740) to eq2:21 (in)
+    connect control (val=3) to eq2:22 (in)
+    connect control (val=-8) to eq2:23 (in)
+    connect control (val=6) to eq2:24 (in)
+    connect control (val=750) to eq2:25 (in)
+    connect control (val=3) to eq2:26 (in)
+    connect control (val=-6) to eq2:27 (in)
+    connect control (val=6) to eq2:28 (in)
+    connect control (val=1000) to eq2:29 (in)
+    connect control (val=3) to eq2:30 (in)
+    connect control (val=-3) to eq2:31 (in)
+    connect control (val=6) to eq2:32 (in)
+    connect control (val=360) to eq2:33 (in)
+    connect control (val=2) to eq2:34 (in)
+    connect control (val=-4) to eq2:35 (in)
+    connect control (val=6) to eq2:36 (in)
+    connect control (val=1300) to eq2:37 (in)
+    connect control (val=3) to eq2:38 (in)
+    connect control (val=-4) to eq2:39 (in)
+    connect control (val=6) to eq2:40 (in)
+    connect control (val=1000) to eq2:41 (in)
+    connect control (val=2) to eq2:42 (in)
+    connect control (val=-4) to eq2:43 (in)
+04-06 02:13:04.706 827-4668/? D//system/bin/audioserver: connect control (val=6) to eq2:44 (in)
+    connect control (val=360) to eq2:45 (in)
+    connect control (val=1) to eq2:46 (in)
+    connect control (val=-3) to eq2:47 (in)
+    connect control (val=6) to eq2:48 (in)
+    connect control (val=1200) to eq2:49 (in)
+    connect control (val=2) to eq2:50 (in)
+    connect control (val=-5) to eq2:51 (in)
+    connect control (val=6) to eq2:52 (in)
+    connect control (val=2200) to eq2:53 (in)
+    connect control (val=7) to eq2:54 (in)
+    connect control (val=-9) to eq2:55 (in)
+    connect control (val=6) to eq2:56 (in)
+    connect control (val=2200) to eq2:57 (in)
+    connect control (val=7) to eq2:58 (in)
+    connect control (val=-9) to eq2:59 (in)
+    connect control (val=5) to eq2:60 (in)
+    connect control (val=6000) to eq2:61 (in)
+    connect control (val=0) to eq2:62 (in)
+    connect control (val=-2) to eq2:63 (in)
+    connect control (val=5) to eq2:64 (in)
+    connect control (val=6000) to eq2:65 (in)
+    connect control (val=1) to eq2:66 (in)
+    connect control (val=-2) to eq2:67 (in)
+    connect audio buf 0 to output_sink:0 (in)
+04-06 02:13:04.707 827-4668/? D//system/bin/audioserver: connect audio buf 1 to output_sink:1 (in)
+04-06 02:13:04.727 1669-2105/? I/EventLogChimeraService: Accumulating logs since 1522994217480
+04-06 02:13:04.728 4027-4027/? I/SystemUpdate: [Phone,SystemUpdateChimeraActivity] Status change: status=0x000, isSetupWizard=false.
+04-06 02:13:04.736 1669-6069/? I/SystemUpdate: [Execution,InstallationEventIntentOperation] Handling event of type 102.
+04-06 02:13:04.737 827-4668/? W/StreamHAL: Error from HAL stream in function get_presentation_position: Operation not permitted
+04-06 02:13:04.738 1669-2105/? I/EventLogChimeraService: Opted in for usage reporting
+04-06 02:13:04.748 1669-6069/? I/SystemUpdate: [Execution,ExecutionManager] Finishing the current execution.
+04-06 02:13:04.784 1669-6077/? I/SystemUpdate: [Execution,InstallationIntentOperation] Received intent: Intent { act=com.google.android.gms.update.INSTALL_UPDATE cat=[targeted_intent_op_prefix:.update.execution.InstallationIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService }.
+04-06 02:13:04.821 1669-2105/? I/ProcessCheckinRequest: Get token from PseudonymousIdApi: 127=sQcJjbLSxadf7UvuO28HhQgBqZKkQ3JC-fttsQINZ9kZKAXSlBoG3Lwvw2KTMXY5NajxfMiXAq5trLNAWXPUmVSp_zSt9afxG6QI-nJuSoWnDnkd2eO9THWk7ikjfpGi
+04-06 02:13:04.821 1669-2105/? I/CheckinRequestBuilder: Checkin reason type: 8 attempt count: 1
+04-06 02:13:04.822 1669-6077/? I/SystemUpdate: [Execution,ExecutionManager] Action pending executed for 0.02 seconds.
+04-06 02:13:04.833 1669-6077/? I/zygote64: Deoptimizing azfe azfe.a(int, java.lang.Object[]) due to JIT inline cache
+04-06 02:13:04.846 4027-4032/? I/zygote64: Do partial code cache collection, code=58KB, data=47KB
+    After code cache collection, code=58KB, data=47KB
+    Increasing code cache capacity to 256KB
+04-06 02:13:04.854 928-1139/? I/WifiService: getConnectionInfo uid=10010
+04-06 02:13:04.857 1669-2105/? I/CheckinRequestBuilder: Unknown state of subscriptions on the device
+04-06 02:13:04.870 1669-6077/? I/SystemUpdate: [Control,InstallationControl] Installation progress updated to (0x70B, -1.000).
+04-06 02:13:04.888 4027-4027/? I/SystemUpdate: [Phone,SystemUpdateChimeraActivity] Status change: status=0x70B, isSetupWizard=false.
+04-06 02:13:04.960 1669-6077/? I/SystemUpdate: [Execution,ExecutionManager] Action non-streaming-download executed for 0.13 seconds.
+04-06 02:13:04.961 1669-6077/? I/zygote64: Deoptimizing java.util.ListIterator azeb.listIterator() due to JIT inline cache
+    Deoptimizing java.util.ListIterator azeb.listIterator(int) due to JIT inline cache
+    Deoptimizing java.lang.Object azoh.next() due to JIT inline cache
+    Deoptimizing java.lang.Object azed.a(int) due to JIT inline cache
+04-06 02:13:04.975 1669-6077/? I/SystemUpdate: [Execution,ExecutionManager] Action fixed-delay-execution executed for 0.01 seconds.
+04-06 02:13:05.006 1441-1648/? W/Conscrypt: Could not set socket write timeout: java.lang.reflect.InvocationTargetException
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@12521051@12.5.21 (090406-189987672):13)
+    Caused by: android.system.ErrnoException: setsockopt failed: EBADF (Bad file descriptor)
+        at libcore.io.Linux.setsockoptTimeval(Native Method)
+        at libcore.io.ForwardingOs.setsockoptTimeval(ForwardingOs.java:175)
+04-06 02:13:05.078 1441-1648/? W/Conscrypt: Could not set socket write timeout: java.lang.reflect.InvocationTargetException
+04-06 02:13:05.079 1441-1648/? W/Conscrypt:     at java.lang.reflect.Method.invoke(Native Method)
+        at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@12521051@12.5.21 (090406-189987672):13)
+    Caused by: android.system.ErrnoException: setsockopt failed: EBADF (Bad file descriptor)
+        at libcore.io.Linux.setsockoptTimeval(Native Method)
+        at libcore.io.ForwardingOs.setsockoptTimeval(ForwardingOs.java:175)
+    
+    --------- beginning of system
+04-06 02:13:05.359 928-1281/? I/ActivityManager: Start proc 6084:com.google.android.gms.unstable/u0a10 for service com.google.android.gms/.droidguard.DroidGuardService
+04-06 02:13:05.372 1669-1675/? I/zygote64: Compiler allocated 4MB to compile void nts.a(android.content.Context, bfqb)
+04-06 02:13:05.374 6084-6084/? I/zygote64: The ClassLoaderContext is a special shared library.
+04-06 02:13:05.375 6084-6084/? I/zygote64: The ClassLoaderContext is a special shared library.
+04-06 02:13:05.412 6084-6084/? W/linker: "/data/app/com.google.android.gms-vyHmNPQ8sVxoXDvxvXu7vA==/lib/arm64/libconscrypt_gmscore_jni.so" unused DT entry: type 0xf arg 0x8a
+04-06 02:13:05.413 6084-6084/? V/NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 279 native methods...
+04-06 02:13:05.424 6084-6084/? D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+04-06 02:13:05.425 6084-6084/? I/ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+04-06 02:13:05.469 6084-6101/? I/zygote64: Deoptimizing boolean nty.a(android.content.Context, java.io.File) due to JIT inline cache
+04-06 02:13:05.486 158-158/? W//system/bin/hwservicemanager: getTransport: Cannot find entry android.hardware.drm@1.0::IDrmFactory/default in either framework or device manifest.
+04-06 02:13:05.487 832-3936/? D/vndksupport: Loading /vendor/lib/hw/android.hardware.drm@1.0-impl.so from current namespace instead of sphal namespace.
+04-06 02:13:05.508 832-3936/? I/DrmHal: makeDrmFactories: using default drm instance
+04-06 02:13:05.508 832-3936/? D/WVCdm: Instantiating CDM.
+04-06 02:13:05.509 832-832/? I/WVCdm: CdmEngine::OpenSession
+04-06 02:13:05.516 832-6111/? I/WVCdm: Level3 Library 4445 Oct  4 2017 17:06:25
+04-06 02:13:05.519 6084-6095/? I/DynamiteModule: Considering local module com.google.android.gms.googlecertificates:4 and remote module com.google.android.gms.googlecertificates:4
+    Selected local version of com.google.android.gms.googlecertificates
+04-06 02:13:05.524 6084-6095/? I/zygote64: The ClassLoaderContext is a special shared library.
+04-06 02:13:05.537 832-832/? I/WVCdm: L3 Initialized. Trying L1.
+04-06 02:13:05.543 832-832/? D/oemcrypto_cenc: >> OEMCrypto_Initialize: modular drm 5.00
+04-06 02:13:05.547 832-832/? D/oemcrypto_cenc: << OEMCrypto_Initialize
+04-06 02:13:05.548 832-832/? E/oemcrypto_cenc: OEMCrypto_APIVersion: 13
+04-06 02:13:05.548 832-832/? D/oemcrypto_cenc: >> OEMCrypto_IsKeyboxValid
+    << OEMCrypto_IsKeyboxValid
+04-06 02:13:05.548 832-832/? D/WVCdm: OEMCrypto_Initialize Level 1 success. I will use level 1.
+    CryptoSession::Open: Lock: requested_security_level: Default
+04-06 02:13:05.548 832-832/? D/oemcrypto_cenc: >> OEMCrypto_OpenSession
+    AddSessionHandle: session:0xedbaf120, status: 1
+    << OEMCrypto_OpenSession
+    >> OEMCrypto_GetRandom
+    << OEMCrypto_GetRandom
+04-06 02:13:05.548 832-832/? E/oemcrypto_cenc: OEMCrypto_APIVersion: 13
+    OEMCrypto_SecurityLevel
+04-06 02:13:05.549 832-832/? D/oemcrypto_cenc: >> OEMCrypto_LoadUsageTableHeader
+04-06 02:13:05.564 832-832/? D/oemcrypto_cenc: << OEMCrypto_LoadUsageTableHeader
+04-06 02:13:05.564 832-832/? E/oemcrypto_cenc: OEMCrypto_SecurityLevel
+04-06 02:13:05.564 832-832/? D/oemcrypto_cenc: >> OEMCrypto_LoadDeviceRSAKey
+    << OEMCrypto_LoadDeviceRSAKey
+    >> OEMCrypto_GetRandom
+    << OEMCrypto_GetRandom
+04-06 02:13:05.564 832-832/? I/WVCdm: CdmEngine::QueryOemCryptoSessionId
+04-06 02:13:05.565 832-3936/? I/WVCdm: CdmEngine::GenerateKeyRequest
+04-06 02:13:05.565 832-3936/? D/oemcrypto_cenc: >> OEMCrypto_GetDeviceID
+    << OEMCrypto_GetDeviceID
+04-06 02:13:05.565 832-3936/? E/oemcrypto_cenc: OEMCrypto_APIVersion: 13
+04-06 02:13:05.565 832-3936/? D/oemcrypto_cenc: OEMCrypto_GetHDCPCapability
+    >> OEMCrypto_GenerateNonce
+    << OEMCrypto_GenerateNonce
+04-06 02:13:05.565 832-3936/? D/WVCdm: PrepareKeyRequest: nonce=874737064
+04-06 02:13:05.565 832-3936/? D/oemcrypto_cenc: >> OEMCrypto_GenerateRSASignature
+04-06 02:13:05.577 832-3936/? D/oemcrypto_cenc: << OEMCrypto_GenerateRSASignature
+04-06 02:13:05.578 832-850/? D/oemcrypto_cenc: >> OEMCrypto_CloseSession
+    RemoveSessionHandle: session: 0xedbaf120, status: 1
+04-06 02:13:05.593 832-850/? I/oemcrypto_utils: NVDEC Start Keep ON 
+    NVDEC Stop Keep ON 
+04-06 02:13:05.593 832-850/? D/oemcrypto_cenc: << OEMCrypto_CloseSession
+04-06 02:13:05.593 832-850/? I/WVCdm: L3 Terminate.
+04-06 02:13:05.593 832-850/? D/oemcrypto_cenc: >> OEMCrypto_Terminate
+04-06 02:13:05.593 832-850/? I/oemcrypto_utils: NVDEC Start Keep ON 
+04-06 02:13:05.594 832-850/? I/oemcrypto_utils: NVDEC Stop Keep ON 
+04-06 02:13:05.594 832-850/? D/oemcrypto_cenc: << OEMCrypto_Terminate
+04-06 02:13:05.595 6084-6095/? D/NvOsDebugPrintf: NvRmPrivGetChipPlatform: Could not read platform information 
+    Expected on kernels without fuse support, using silicon
+04-06 02:13:05.600 6084-6095/? D/vndksupport: Loading /vendor/lib64/hw/gralloc.tegra.so from current namespace instead of sphal namespace.
+04-06 02:13:05.610 158-158/? W//system/bin/hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+04-06 02:13:05.611 6084-6095/? I/zygote64: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+04-06 02:13:05.719 6084-6095/? D/vndksupport: Loading /vendor/lib64/hw/gralloc.tegra.so from current namespace instead of sphal namespace.
+04-06 02:13:05.720 6084-6095/? I/zygote64: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+04-06 02:13:06.058 6115-6115/? I/dex2oat: The ClassLoaderContext is a special shared library.
+    /system/bin/dex2oat --dex-file=/data/data/com.google.android.gms/app_fb/f.apk --output-vdex-fd=72 --oat-fd=73 --oat-location=/data/data/com.google.android.gms/app_fb/oat/arm64/f.odex --compiler-filter=quicken --class-loader-context=&
+04-06 02:13:06.145 6115-6115/? I/dex2oat: dex2oat took 87.786ms (50.157ms cpu) (threads: 4) arena alloc=9KB (9760B) java alloc=64KB (65552B) native alloc=1016KB (1041192B) free=2MB (2104536B)
+04-06 02:13:06.151 6084-6095/? I/zygote64: The ClassLoaderContext is a special shared library.
+04-06 02:13:06.153 6084-6095/? D/vndksupport: Loading /vendor/lib64/hw/gralloc.tegra.so from current namespace instead of sphal namespace.
+04-06 02:13:06.154 6084-6095/? I/zygote64: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+04-06 02:13:06.177 6084-6095/? D/vndksupport: Loading /vendor/lib64/hw/gralloc.tegra.so from current namespace instead of sphal namespace.
+04-06 02:13:06.177 6084-6095/? I/zygote64: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+04-06 02:13:06.232 6095-6095/? W/Binder:6084_1: type=1400 audit(0.0:41): avc: denied { read } for name="interrupts" dev="proc" ino=4026532017 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:proc_interrupts:s0 tclass=file permissive=0
+04-06 02:13:06.237 6084-6095/? D/vndksupport: Loading /vendor/lib64/hw/gralloc.tegra.so from current namespace instead of sphal namespace.
+04-06 02:13:06.238 6084-6095/? I/zygote64: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+04-06 02:13:06.259 1669-2105/? I/CheckinUtil: Classify the device as Tablet.
+04-06 02:13:06.262 1669-2105/? I/EventLogChimeraService: Opted in for usage reporting
+04-06 02:13:06.270 1669-2105/? I/ProcessCheckinRequest: Setting cookie as: NID=127=sQcJjbLSxadf7UvuO28HhQgBqZKkQ3JC-fttsQINZ9kZKAXSlBoG3Lwvw2KTMXY5NajxfMiXAq5trLNAWXPUmVSp_zSt9afxG6QI-nJuSoWnDnkd2eO9THWk7ikjfpGi
+04-06 02:13:06.302 1669-2105/? W/Conscrypt: Could not set socket write timeout: java.lang.reflect.InvocationTargetException
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@12521051@12.5.21 (090406-189987672):13)
+    Caused by: android.system.ErrnoException: setsockopt failed: EBADF (Bad file descriptor)
+        at libcore.io.Linux.setsockoptTimeval(Native Method)
+        at libcore.io.ForwardingOs.setsockoptTimeval(ForwardingOs.java:175)
+04-06 02:13:06.371 1669-2105/? W/Conscrypt: Could not set socket write timeout: java.lang.reflect.InvocationTargetException
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@12521051@12.5.21 (090406-189987672):13)
+    Caused by: android.system.ErrnoException: setsockopt failed: EBADF (Bad file descriptor)
+        at libcore.io.Linux.setsockoptTimeval(Native Method)
+        at libcore.io.ForwardingOs.setsockoptTimeval(ForwardingOs.java:175)
+04-06 02:13:06.716 1669-2105/? I/ProcessCheckinRequest: updateCheckinIdTokenFileFromResponse, Reading existing AID
+04-06 02:13:06.719 1669-2105/? I/CheckinRequestBuilder: Checkin reason type: 8 attempt count: 1
+04-06 02:13:06.765 928-1549/? I/WifiService: getConnectionInfo uid=10010
+04-06 02:13:06.767 1669-2105/? I/CheckinRequestBuilder: Unknown state of subscriptions on the device
+04-06 02:13:06.795 1669-2105/? I/CheckinUtil: Classify the device as Tablet.
+04-06 02:13:06.800 1669-2105/? I/EventLogChimeraService: Opted in for usage reporting
+04-06 02:13:06.806 1669-2105/? E/ProcessCheckinRequest: CheckinNowTaskTag : Checkin Succeeded: https://android.clients.google.com/checkin (request #1): 
+04-06 02:13:09.682 928-941/? E/memtrack: Couldn't load memtrack module
+04-06 02:13:09.682 928-941/? W/android.os.Debug: failed to get memory consumption info: -1
